@@ -2,7 +2,7 @@
 layout: post
 title: Zilele Humorului - Festivalul anual al orașului
 date: 2025-01-27 10:00:00 +0200
-image: zilele-humorului-festival.jpg
+image: umor-la-gura-humorului.jpg
 tags: [evenimente, cultura]
 ---
 
@@ -83,7 +83,7 @@ Cel mai important eveniment cultural al anului în Gura Humorului este **"Zilele
 
 ### Pentru tineri:
 - **Concursuri de fotografie** Instagram cu hashtag #ZileleHumorului
-- **Turneu de fotbal pe strada** 
+- **Turneu de fotbal pe strada**
 - **DJ set** în Parcul Central (vineri și sâmbătă seara)
 - **Concurs de dans** tradițional și modern
 
@@ -116,7 +116,7 @@ Zilele Humorului atrag vizitatori din toată țara, iar locurile de cazare se oc
 
 **Muzică populară:**
 - Sofia Vicoveanca
-- Irina Loghin  
+- Irina Loghin
 - Fuego
 - Ansamblul "Ciprian Porumbescu"
 
