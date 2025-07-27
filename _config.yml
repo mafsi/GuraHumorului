@@ -9,16 +9,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-author-name:   Gura Humorului
+author-name:   Primăria Gura Humorului
 author-avatar: 09.jpg
 
 
 #-------------------------------
 # Contact links
-facebook:  https://facebook.com/ # Add your Facebook handle
-twitter:   https://twitter.com/ # Add your Facebook handle
-instagram: https://www.instagram.com/ # Add your Facebook handle
-pinterest: https://www.pinterest.com/ # Add your Facebook handle
+facebook:  # Add your Facebook handle
+twitter:   # Add your Twitter handle
+instagram: https://www.instagram.com/gurahumorului.info/ # Add your Facebook handle
+pinterest: # Add your Pinterest handle
 
 
 #-------------------------------
@@ -28,7 +28,7 @@ disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
 instagram:
   username: gurahumorului.info
   #grid_size: 12
