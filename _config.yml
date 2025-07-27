@@ -15,10 +15,10 @@ author-avatar: 09.jpg
 
 #-------------------------------
 # Contact links
-facebook:  # Add your Facebook handle
-twitter:   # Add your Twitter handle
+facebook:  https://facebook.com/gurahumorului.info # Add your Facebook handle
+twitter:   https://twitter.com/gurahumorului # Add your Twitter handle
 instagram: https://www.instagram.com/gurahumorului.info/ # Add your Facebook handle
-pinterest: # Add your Pinterest handle
+pinterest: https://pinterest.com/gurahumorului # Add your Pinterest handle
 
 
 #-------------------------------
@@ -28,7 +28,7 @@ disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example
 
 #-------------------------------
 # Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
 instagram:
   username: gurahumorului.info
   #grid_size: 12
