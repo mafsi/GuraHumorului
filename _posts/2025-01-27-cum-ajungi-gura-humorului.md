@@ -2,7 +2,7 @@
 layout: post
 title: Cum ajungi în Gura Humorului - Ghid complet de transport
 date: 2025-01-27 11:00:00 +0200
-image: cum-ajungi-gura-humorului.jpg
+image: directions.jpg
 tags: [ghid-practic]
 ---
 
@@ -31,13 +31,13 @@ Gura Humorului este foarte bine conectată la principalele orașe din România. 
 - Verifică prognoza meteo iarna
 
 ### Din Cluj-Napoca
-- **Distanța:** 280 km  
+- **Distanța:** 280 km
 - **Timp:** 3.5-4 ore
 - **Traseul:** Cluj → DN1 → Târgu Mureș → DN15 → Suceava → DJ209A → Gura Humorului
 
 ### Din Iași
 - **Distanța:** 120 km
-- **Timp:** 1.5-2 ore  
+- **Timp:** 1.5-2 ore
 - **Traseul:** Iași → DN28 → Suceava → DJ209A → Gura Humorului
 
 ---
@@ -51,7 +51,7 @@ Gura Humorului este foarte bine conectată la principalele orașe din România. 
 
 **Opțiuni transfer de la aeroport:**
 1. **Mașină închiriată:** 35-50 euro/zi (Rent a Car Suceava)
-2. **Taxi:** 80-100 lei până în Gura Humorului  
+2. **Taxi:** 80-100 lei până în Gura Humorului
 3. **Transfer privat:** 120-150 lei (pre-rezervare)
 4. **Autobuz până în Suceava + conexiune:** 15 lei total
 
@@ -71,7 +71,7 @@ Orașul are gară proprie pe magistrala **București - Suceava - Gura Humorului*
   - Durată: ~7.5 ore
   - Preț: 45-65 lei (clasa a II-a)
 
-- **Cluj-Napoca:** 1 tren/zi  
+- **Cluj-Napoca:** 1 tren/zi
   - Durată: ~8 ore
   - Preț: 50-70 lei
 
@@ -93,7 +93,7 @@ Orașul are gară proprie pe magistrala **București - Suceava - Gura Humorului*
 
 ### Autogara Suceava - Gura Humorului
 - **Frecvența:** La fiecare 2 ore (06:00-20:00)
-- **Durată:** 45-55 minute  
+- **Durată:** 45-55 minute
 - **Preț:** 8-12 lei
 - **Companie:** Transport Public Suceava
 
@@ -108,7 +108,7 @@ Orașul are gară proprie pe magistrala **București - Suceava - Gura Humorului*
 - Plecare: Autogara Filaret
 
 **Din Cluj:** Autocar Transilvania
-- Durată: 4-5 ore  
+- Durată: 4-5 ore
 - Preț: 45-60 lei
 
 ---
@@ -123,10 +123,10 @@ Orașul are gară proprie pe magistrala **București - Suceava - Gura Humorului*
 
 ### Transfer privat organizat
 - **Aeroport Suceava - Gura Humorului:** 120-150 lei
-- **Suceava Centru - Gura Humorului:** 80-100 lei  
+- **Suceava Centru - Gura Humorului:** 80-100 lei
 - **Pentru grupuri:** Microbuze 8+1 locuri disponibile
 
-**Rezervări transfer:** 
+**Rezervări transfer:**
 - Prin pensiunile locale
 - Tour operatori locali: 0230.234.567
 
