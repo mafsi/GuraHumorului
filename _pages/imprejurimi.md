@@ -106,8 +106,20 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 
 ---
 
-## 🎨 Artă și Tradiții Locale
+## 🎨 Meșteșuguri și Tradiții
 
+{% assign cultura_posts = site.posts | where_exp: "post", "post.tags contains 'cultura'" %}
+{% if cultura_posts.size > 0 %}
+<div class="posts-grid">
+{% for post in cultura_posts %}
+  <article class="post-card">
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Citește mai mult →</a>
+  </article>
+{% endfor %}
+</div>
+{% else %}
 <div class="traditii-grid">
   <div class="traditie">
     <h3>🏺 Ceramica Neagră de Marginea</h3>
@@ -127,11 +139,24 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
     <p>Țesături tradiționale cu motive specifice Bucovinei, lucrate pe război de țesut.</p>
   </div>
 </div>
+{% endif %}
 
 ---
 
 ## 🗺️ Trasee Turistice Recomandate
 
+{% assign istorie_posts = site.posts | where_exp: "post", "post.tags contains 'istorie'" %}
+{% if istorie_posts.size > 0 %}
+<div class="posts-grid">
+{% for post in istorie_posts %}
+  <article class="post-card">
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Citește mai mult →</a>
+  </article>
+{% endfor %}
+</div>
+{% else %}
 <div class="trasee-container">
   <div class="traseu">
     <h3>📍 Traseul Mănăstirilor (2 zile)</h3>
@@ -149,6 +174,7 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
     <p>Marginea (ceramică neagră) → Ciocănești (ouă încondeiate) → Rădăuți (covoare)</p>
   </div>
 </div>
+{% endif %}
 
 ---
 
