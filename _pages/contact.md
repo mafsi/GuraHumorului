@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-image: contact-gura-humorului.jpg
+image: contact.png
 permalink: /contact/
 ---
 
@@ -19,19 +19,19 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
     <p><a href="mailto:contact@gurahumorului.info">contact@gurahumorului.info</a></p>
     <p>Pentru întrebări generale, sugestii și feedback</p>
   </div>
-  
+
   <div class="contact-item">
     <h3>🏪 Promovare Afaceri</h3>
     <p><a href="mailto:afaceri@gurahumorului.info">afaceri@gurahumorului.info</a></p>
     <p>Pentru listarea afacerilor locale, pensiuni, restaurante</p>
   </div>
-  
+
   <div class="contact-item">
     <h3>📰 Știri și Evenimente</h3>
     <p><a href="mailto:evenimente@gurahumorului.info">evenimente@gurahumorului.info</a></p>
     <p>Pentru anunțarea evenimentelor locale</p>
   </div>
-  
+
   <div class="contact-item">
     <h3>📸 Contribuții Foto</h3>
     <p><a href="mailto:galerie@gurahumorului.info">galerie@gurahumorului.info</a></p>
@@ -53,7 +53,7 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
       <li><strong>Populație:</strong> ~12.000 locuitori</li>
     </ul>
   </div>
-  
+
   <div class="info-section">
     <h3>📞 Contacte Utile</h3>
     <ul>
@@ -63,7 +63,7 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
       <li><strong>Spitalul Orășenesc:</strong> 0230.234.567</li>
     </ul>
   </div>
-  
+
   <div class="info-section">
     <h3>🏛️ Instituții Publice</h3>
     <ul>
@@ -73,7 +73,7 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
       <li><strong>Casa de Cultură:</strong> 0230.234.400</li>
     </ul>
   </div>
-  
+
   <div class="info-section">
     <h3>🏦 Servicii Bancare</h3>
     <ul>
@@ -94,13 +94,13 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
     <p><strong>Distanța:</strong> ~34 km | <strong>Timp:</strong> ~40 minute</p>
     <p><strong>Traseul:</strong> Suceava → DN2 → DJ209A → Gura Humorului</p>
   </div>
-  
+
   <div class="traseu-acces">
     <h3>✈️ De la Aeroportul Ștefan cel Mare</h3>
     <p><strong>Distanța:</strong> ~45 km | <strong>Timp:</strong> ~50 minute</p>
     <p><strong>Traseul:</strong> Aeroportul Salcea → DN2 → DJ209A → Gura Humorului</p>
   </div>
-  
+
   <div class="traseu-acces">
     <h3>🚂 Cu trenul</h3>
     <p><strong>Gara cea mai apropiată:</strong> Gura Humorului (CFR)</p>
@@ -119,7 +119,7 @@ Vă stăm la dispoziție pentru orice informații despre orașul nostru frumos �
     <p><a href="https://instagram.com/gurahumorului.info" target="_blank">@gurahumorului.info</a></p>
     <p>Fotografii zilnice din orașul nostru</p>
   </div>
-  
+
   <div class="social-item">
     <h3>📧 Newsletter</h3>
     <p>Abonează-te pentru a primi informații despre evenimente și noutăți!</p>
