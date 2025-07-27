@@ -9,8 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-author-name:   Primăria Gura Humorului
-author-avatar: 09.jpg
+author-name:   Gura Humorului
+author-avatar: avatar.jpeg
 
 
 #-------------------------------
@@ -23,7 +23,7 @@ pinterest: https://pinterest.com/gurahumorului # Add your Pinterest handle
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: gurahumorului # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
