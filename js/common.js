@@ -60,18 +60,7 @@ $(function() {
     wh = window.innerHeight;
 
   $(window).ready(function () {
-    $('body').waitForImages({
-      finished: function () {
-        setTimeout(function () {
-          $('.preloader').addClass('hide');
-
-          setTimeout(function () {
-            reveals();
-          }, 100);
-        }, 500);
-      },
-      waitForAll: true
-    });
+    reveals();
   });
 
   function reveals() {
