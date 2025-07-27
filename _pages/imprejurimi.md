@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Împrejurimi
-image: imprejurimi-bucovina.jpg
+image: imprejurimi.jpg
 permalink: /imprejurimi/
 ---
 
@@ -31,25 +31,25 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
     <p><strong>Distanța:</strong> ~25 km | <strong>Timp:</strong> 30 min</p>
     <p>Celebră pentru frescele exterioare cu "Asediul Constantinopolului" și albastrul intens moldovenesc.</p>
   </div>
-  
+
   <div class="atractie">
     <h3>⛪ Mănăstirea Sucevița</h3>
     <p><strong>Distanța:</strong> ~35 km | <strong>Timp:</strong> 45 min</p>
     <p>"Capodopera picturii medievale moldovenești" cu celebra "Scara Virtuților".</p>
   </div>
-  
+
   <div class="atractie">
     <h3>🏰 Mănăstirea Putna</h3>
     <p><strong>Distanța:</strong> ~45 km | <strong>Timp:</strong> 1h</p>
     <p>Necropola domnilor Moldovei, mormîntul lui Ștefan cel Mare și Sfînt.</p>
   </div>
-  
+
   <div class="atractie">
     <h3>⛪ Mănăstirea Bogdana</h3>
     <p><strong>Distanța:</strong> ~50 km | <strong>Timp:</strong> 1h</p>
     <p>Prima ctitorie a lui Ștefan cel Mare, construită în cinstea primei sale victorii.</p>
   </div>
-  
+
   <div class="atractie">
     <h3>🏛️ Mănăstirea Dragomirna</h3>
     <p><strong>Distanța:</strong> ~40 km | <strong>Timp:</strong> 50 min</p>
@@ -83,7 +83,7 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
       <li><strong>Cheile Zugrenilor</strong> - canion natural</li>
     </ul>
   </div>
-  
+
   <div class="natura-categorie">
     <h3>🌿 Rezervații Forestiere</h3>
     <ul>
@@ -92,7 +92,7 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
       <li><strong>Rezervația Rarău</strong> - floră alpină unică</li>
     </ul>
   </div>
-  
+
   <div class="natura-categorie">
     <h3>🐟 Atracții Speciale</h3>
     <ul>
@@ -126,13 +126,13 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
     <p><strong>Distanța:</strong> ~30 km</p>
     <p>Arta tradițională unică în lume - ceramică neagră lucrată manual după tehnici seculare.</p>
   </div>
-  
+
   <div class="traditie">
     <h3>🥚 Încondeieratul Ouălor</h3>
     <p><strong>Ciocănești, Moldovița</strong></p>
     <p>Meștesugul tradițional bucovinean de decorare a ouălor cu motive ancestrale.</p>
   </div>
-  
+
   <div class="traditie">
     <h3>🧵 Covoarele Moldovenești</h3>
     <p><strong>Rădăuți, Suceava</strong></p>
@@ -163,12 +163,12 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
     <p><strong>Ziua 1:</strong> Voroneț → Humor → Moldovița</p>
     <p><strong>Ziua 2:</strong> Sucevița → Putna → Dragomirna</p>
   </div>
-  
+
   <div class="traseu">
     <h3>🌲 Traseul Naturii (1-2 zile)</h3>
     <p>Piatra Pinului → Salina Cacica → Păstrăvăria Câmpulung → Cheile Zugrenilor</p>
   </div>
-  
+
   <div class="traseu">
     <h3>🎨 Traseul Meșteșugurilor (1 zi)</h3>
     <p>Marginea (ceramică neagră) → Ciocănești (ouă încondeiate) → Rădăuți (covoare)</p>
