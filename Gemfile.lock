@@ -65,6 +65,7 @@ GEM
 PLATFORMS
   ruby
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bundler
@@ -72,7 +73,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.2.19
