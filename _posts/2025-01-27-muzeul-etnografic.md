@@ -1,0 +1,47 @@
+---
+layout: post
+title: Muzeul etnografic
+date: 2025-01-27 10:00:00 +0200
+image: muzeu.jpg
+tags: [cultura]
+---
+
+Muzeul Obiceiurilor Populare din Bucovina este o instituție singulară în rețeaua culturală românească, fiind singurul muzeu care a reușit să transpună cu mijloace muzeotehnice obișnuite acel segment de spiritualitate definitorie pentru orice etnie, popor, națiune: tradiția populară.
+
+Muzeul a fost creat în anul 1958 ca muzeu etnografic reprezentativ pentru zona etnografică Humor. Întrucît în anul 1996 vechiul sediu a fost redobîndit de Ministerul Justiției, muzeul a fost obligat să se mute într-un alt spațiu, situat în centrul orașului, în imediata vecinătate a Primăriei, clădire ce face parte din zestrea imobiliară a orașului dar în care funcționase zeci de ani restaurantul Bucovina.
+
+În această clădire, reparată și reorganizată de către Primărie, s-a deschis, în luna mai 2000, o galerie de arta contemporană Galeria de Artă Georges Cotos - grație unei donații generoase (200 de tablouri) făcută de un om extraordinar: pictorul francez de origine română Georges Cotos, născut în anul 1915 în Straja Bucovinei. Elogiat de critică de specialitate, bine cotat pe piaaa de arta europeană și nu numai, Georges Cotos a expus în capitale europene și americane, uimind de fiecare dată prin forța expresiei plastice și prin explozia de culoare a lucrărilor sale nonfigurative.
+
+Tablourile expuse în cele două săli situate la parterul clădirii creează o atmosferă de excepție, culorile, tehnică specială și tematică abordată transpunînd vizitatorul în lumea mai puțin cunoscută a semnelor și simbolurilor ancestrale.
+
+Numit adesea "pictor al culorilor atomice", Georges Cotos este apreciat de către Maestru Ion Irimescu ca fiind foarte original și foarte detașat de ceea ce poate fi numit pictură obisnuitaEste un pictor autentic, ce pare să se fi născut din frumusețea locurilor din Bucovina, extrăgîndu-și convingerile din impresiile pe care i le-au dat natura și pămîntul natal. El deschide drumuri noi și se impune ca o personalitate bine definită în rîndurile pictorilor consacrați din arta plastică europeană.
+
+Muzeul Obiceiurilor Populare din Bucovina, organizat în cele cinci săli situate la etajul imobilului, a fost deschis publicului în luna noiembrie 2005. La amenajarea spațiului și la reorganizarea tematică au contribuit, pe lîngă comunitatea locală, Fundațiile Carpatica și Regele Boduin, precum și Fundația pentru Parteneriat, care au finanțat două proiecte din cadrul programului "Moștenire vie", realizate în parteneriat cu Fundația Domus din Gura Humorului.
+
+Tematică muzeului etnografic a fost gîndită ca o călătorie virtuală în universul spiritual al satului bucovinean de la sfîrșitul secolului al XIX-lea, sat virtual în care vizitatorul poate parcurge principalele momente ale timpului calendaristic, Muzeul Obiceiurilor Populare din Bucovina fiind o reprezentare a calendarului popular.
+
+Trecerea din lumea artelor plastice, lume mai ales urbană, în lumea rurală, este marcată de un stîlp de hotar, reconstituit după modelul celor ce au fost înlăturați de tractoarele colectivizării forțate din anii 50 ai secolului XX. Urcînd scările, vizitatorul poate admira cîteva elemente de arhitectură tradițională, acomodîndu-se ușor cu universul tradițiilor bucovinene, ce-și vor destăinui, treptat, secretele.
+
+Ajuns la marginea satului, vizitatorul este invitat să pătrundă în prima locuința, monocelulară, cu fîntînă cu roata în bătătură, unde se petrec practicile magice de Sfîntul Andrei. Sfîntul Andrei, crestinatorul poporului român, este considerat, în calendarul popular, ca fiind cap de iarnă și patron al lupilor. Noaptea care premerge sărbătoarea Sfîntului Andrei era considerată a fi noaptea strigoilor - de ale căror influențe malefice te puteai apară mîncînd usturoi și făcînd semnul crucii cu usturoiul deasupra ușii, a ferestrelor și pe frunte și, în egală măsură, noaptea magică în care fetele puteau să întrevadă chipul ursitului. Unele dintre aceste practici sînt reprezentate în acest prim moment din desfășurarea cronologică a timpului calendaristic popular: păzitul usturoiului, pregătirea turtiței sărate, aruncarea cîlților pe vatră, uitatul în fîntînă și legarea parilor la miezul nopții etc, toate pe fundalul unui interior tradițional cu meșter-grindă, ladă de zestre, lăicere, laviță, cuptor, icoane pe sticlă - reconstituit după un model din zona Dornelor (satul Glodu).
+
+De aici, vizitatorul este invitat în a doua casă, de tip cameră-tindă-cameră, reconstiture a unei case din Straja, unde, în "casa cea mare" sau "casa cea frumoasă", este aaternuta masă pentru Cina cea de taina ce marchează cel mai important moment al Crăciunului tradițional Ajunul mării sărbători a Nașterii Mîntuitorului. Pe masă se află cele douăsprezece feluri de mîncare de post, în mijloc tronează colacul rotund că Soarele și Luna și sfeșnicul de lemn cu lumînarea făcută din ceară curată de albine, la meșter grindă atîrna colăceii primiți că răsplată de colind de către cel mai tînăr fecior din familie, pe marginea cuptorului se mai sfădesc, încă, găluștele în oala cea mare drotuita cu sîrmă, pe fierul de plug scos din cuptor se rotunjește "Creciunul" (colacul împletit în forma cifrei opt, ce se păstra pînă la scoaterea plugului la arat, în luna martie), în gura cuptorului arde "Crăciunul" (fragment de trunchi de brad-arborele cosmic în mitologia românească), familia se pregătește să săvîrșească taina "Cinei" în timp ce, afară, "colindă cea tînără" a feciorilor de însurat așteaptă să fie invitată de gazda pentru a da glas colindelor tradiționale.
+
+Mai apoi, vizitatorul iese în prispa casei pentru a deveni gazda ce urmează să-i primească pe urîtorii și mascații de la Anul Nou. Din prispă reconstituită după un model din Mănăstirea Humorului, se deschidea perspectiva ogrăzii în care se afla, deja, urșii, țiganul, capră, moșul și baba, căiuții, jandarmul și turcul membrii ai cetei din Udești, pălărierul din ceața de Plăvălari și căiuții din Giuletti Boroaia.
+
+De aici, vizitatorul "iese din casă" și intră pe "uliță satului", traseu imaginar pe care îl va parcurge pentru a putea urmări celelalte momente ale calendarului popular.
+
+Va trece, astfel, pe lîngă o fierărie unde, în luna lui Faur (februarie) erau aduse pentru a fi reparate sau numai purificate prin trecerea prin foc toate uneltele agricole ca un preludiu al anului agrar ce urma să înceapă în luna martie.
+
+Va vedea, apoi, o stupină arhaică în care buduroaiele scobite în trunchi de copac (stupi primitivi) sînt, tocmai, purificate cu agheasmă și tămîie și fertilizate cu crenguțe de mîțișori sfințiți cu un an înainte, în ziua de Florii. Este începutul tradițional de an apicol, serbat, altă dată, de Alexii (17 martie), zi în care, conform tradiției, toate insectele care au iernat sub pămînt revin la viață.
+
+Mai tîrziu, va putea să învețe cum se sărbătorea "lunea vaselor", cum se făceau înăcrirea borșului și spolocania obiceiuri de la începutul Postului Mare și să admire o casă aflată în curățenia generală din Săptămînă cea Mare a sărbătorii pascale. Va ajunge, în cele din urmă, în centru satului, în curtea bisericii, pentru a se putea bucura de sărbătoarea cea mare a ortodoxiei românești Învierea Domnului. Așezați concentric în curtea bisericii, femei și bărbați, tineri și bătrîni, îmbrăcați în costume autentice de secol nouăsprezece, avînd în fața lor șiruri de pascarite gătite cu cele mai frumoase ștergare și încărcate cu pască, babe, moșnegi, miei de aluat, ouă inchistrite, huști de sare participă la sfînta slujbă de sfințire a bucatelor rituale din dimineață duminicii pascale.
+
+Din centrul satului, vizitatorul se întoarce pe ulița satului și trece pe lîngă un plug ce tocmai este scos la arat (ritual săvîrșit, cel mai adesea, în ziua de 9 martie, ziua echinocțiului de primăvară în calendarul iulian, ce marca începutul de an agrar) și pe lîngă o ogradă în care gospodarul purifică cu apă și coronițe de salcie și flori de primăvară toate vasele folosite la obținerea și prelucrarea laptelui. Este sărbătoarea capului mare de primăvară Sfîntul Gheorghe, purtătorul de biruința ce marchează începutul anului pastoral. Spiritele rele ale strigoilor ce populau, conform credințelor populare, noaptea ce precede sărbătoarea lui Sîngeorz, sînt alungate de creangă verde de salcie înfiptă în brăzda înverzită, așezată pe stîlpul porților, iar feciorii și fetele ce poartă numele sfîntului sînt cinstiți de tîrșul înfipt noaptea la poartă, la ceas de mare taină.
+
+Sfîntul Gheorghe deschide anul pastoral ce continuă cu practicile de la Sfîntul Ilie crucea verii pastorale. Vizitatorul este invitat să-și imagineze că urcă pe vîrf de munte, acolo unde, altă dată, erau săvîrșite practici de adorare a soarelui devenite, în timp, tîrguri în care păstorii și agricultorii aveau prilejul să-și schimbe produsele iar, mai tîrziu, să-și găsească viitoarele consoarte.
+
+Și pentru a nu părăsi muntele, vizitatorul poate să intre într-o stană tradițională și să ia aminte la tradițiile păstorești ce încheie anul pastoral la sărbătoarea Vineri Mari (Sfîntă Parascheva) sau a lui Șîmedru (Sfîntul Dumitru).
+
+Va fi parcurs, în felul acesta, cercul calendarului popular bucovinean, deschis de sărbătoarea Sfîntului Andrei și închis de sărbătoarea Sfîntului Dumitru, și va putea să revină, după o călătorie atemporală, în lumea urbană pe care a părăsit-o cu puțin timp în urmă, trecînd, din nou, pe lîngă stîlpul de hotar, martor tăcut al unei lumi nu întru totul dispărută.
+
+Elvira Romaniuc
