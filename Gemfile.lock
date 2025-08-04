@@ -29,7 +29,7 @@ GEM
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
     font-awesome-sass (6.7.2)
-      sassc (>= 1.11)
+      sassc (~> 2.0)
     jekyll-font-awesome-sass (0.1.1)
       font-awesome-sass (>= 4)
       jekyll (< 4.0, >= 2.5)
