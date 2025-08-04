@@ -11,7 +11,7 @@ Bun venit în Gura Humorului - poarta de intrare către comoara spirituală și 
 
 ---
 
-## 🎯 5 Motive să vii la Gura Humorului
+## <i class="fas fa-heart"></i> 5 Motive să vii la Gura Humorului
 
 {% assign turism_posts = site.posts | where_exp: "post", "post.tags contains 'turism'" %}
 {% if turism_posts.size > 0 %}
@@ -47,9 +47,9 @@ Bun venit în Gura Humorului - poarta de intrare către comoara spirituală și 
 <div class="ghid-sectiuni">
   <h3>Informații practice (în curând):</h3>
   <ul>
-    <li>🚗 <strong>Cum ajungi în Gura Humorului</strong> - cu mașina, trenul sau avionul</li>
+    <li><i class="fa-solid fa-compass"></i><strong>Cum ajungi în Gura Humorului</strong> - cu mașina, trenul sau avionul</li>
     <li>🍽️ <strong>Unde mănînci</strong> - restaurante și localuri recomandate</li>
-    <li>🏨 <strong>Unde te cazezi</strong> - pensiuni, hoteluri și case de oaspeți</li>
+    <li><i class="fa-solid fa-house-chimney-user"></i><strong>Unde te cazezi</strong> - pensiuni, hoteluri și case de oaspeți</li>
     <li>📞 <strong>Informații utile</strong> - contacte, servicii, urgențe</li>
   </ul>
 </div>
