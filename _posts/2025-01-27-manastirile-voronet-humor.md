@@ -15,7 +15,16 @@ La doar câțiva kilometri de Gura Humorului se află două dintre cele mai frum
 
 Mănăstirea Voroneț, ctitorie a lui Ștefan cel Mare din 1488, este renumită în întreaga lume pentru **"Albastrul de Voroneț"** - o nuanță unică de albastru care și-a păstrat strălucirea de peste 500 de ani.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+![](/img/Manastirea-Voronet.jpg)
+
+>>>>>>> acc437e (feat: voronet img added)
 ### Ce vei descoperi la Voroneț:
+=======
+### Ce vei descoperi la Voroneț
+>>>>>>> 016984d (feat: voronet img added)
 
 
 **🎨 Fresca "Judecata de Apoi"**
