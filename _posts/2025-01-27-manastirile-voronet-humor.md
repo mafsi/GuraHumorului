@@ -12,9 +12,12 @@ La doar câțiva kilometri de Gura Humorului se află două dintre cele mai frum
 
 **Distanța de la Gura Humorului:** 4 km | **Timp:** 10 minute cu mașina
 
+
 Mănăstirea Voroneț, ctitorie a lui Ștefan cel Mare din 1488, este renumită în întreaga lume pentru **"Albastrul de Voroneț"** - o nuanță unică de albastru care și-a păstrat strălucirea de peste 500 de ani.
 
-### Ce vei descoperi la Voroneț
+
+### Ce vei descoperi la Voroneț:
+
 
 **🎨 Fresca "Judecata de Apoi"**
 Cea mai impresionantă pictură murală din artă medievală, care acoperă întreaga fațadă de vest a bisericii. Scenele biblice sunt pictate cu o măiestrie și o expresivitate care îți taie respirația.
