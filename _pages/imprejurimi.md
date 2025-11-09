@@ -203,7 +203,7 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 </div>
 
 <style>
-.atractii-grid, .natura-sectiuni, .traditii-grid {
+.posts-grid, .atractii-grid, .natura-sectiuni, .traditii-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
