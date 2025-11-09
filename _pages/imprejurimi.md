@@ -3,6 +3,74 @@ layout: page
 title: Împrejurimi
 image: imprejurimi.jpg
 permalink: /imprejurimi/
+atractii:
+- title: "🏛️ Mănăstirea Moldovița"
+  distance: "~25 km"
+  time: "30 min"
+  description: "Celebră pentru frescele exterioare cu \"Asediul Constantinopolului\" și albastrul intens moldovenesc."
+  url: "/manastirea-moldovita"
+- title: "⛪ Mănăstirea Sucevița"
+  distance: "~35 km"
+  time: "45 min"
+  description: "\"Capodopera picturii medievale moldovenești\" cu celebra \"Scara Virtuților\"."
+  url: "/manastirea-sucevita"
+- title: "🏰 Mănăstirea Putna"
+  distance: "~45 km"
+  time: "1h"
+  description: "Necropola domnilor Moldovei, mormîntul lui Ștefan cel Mare și Sfînt."
+  url: "/manastirea-putna"
+- title: "⛪ Mănăstirea Bogdana"
+  distance: "~50 km"
+  time: "1h"
+  description: "Prima ctitorie a lui Ștefan cel Mare, construită în cinstea primei sale victorii."
+  url: "/manastirea-bogdana"
+- title: "🏛️ Mănăstirea Dragomirna"
+  distance: "~40 km"
+  time: "50 min"
+  description: "Cea mai înaltă biserică din Moldova, cu arhitectura sa unică și impresionantă."
+  url: "/manastirea-dragomirna"
+natura:
+- title: "🏔️ Rezervații Geologice"
+  items:
+  - "Piatra Pinului - formațiune geologică spectaculoasă"
+  - "Piatra Șoimului - punct de belvedere natural"
+  - "Cheile Zugrenilor - canion natural"
+- title: "🌿 Rezervații Forestiere"
+  items:
+  - "Codrul Secular Slătioara - pădure virgină"
+  - "Parcul Natural Călimani - diversitate biologică"
+  - "Rezervația Rarău - floră alpină unică"
+- title: "🐟 Atracții Speciale"
+  items:
+  - "Păstrăvăria din Câmpulung - pescuit sportiv"
+  - "Salina Cacica - tunel de sare cu efecte terapeutice"
+  - "Lacul Bolătău - lac glaciar de munte"
+traditii:
+- title: "🏺 Ceramica Neagră de Marginea"
+  label: "Distanța:"
+  info: "~30 km"
+  description: "Arta tradițională unică în lume - ceramică neagră lucrată manual după tehnici seculare."
+  url: "/ceramica-neagra-marginea"
+- title: "🥚 Încondeieratul Ouălor"
+  label: ""
+  info: "Ciocănești, Moldovița"
+  description: "Meștesugul tradițional bucovinean de decorare a ouălor cu motive ancestrale."
+  url: "/incondeiatul-oualor"
+- title: "🧵 Covoarele Moldovenești"
+  label: ""
+  info: "Rădăuți, Suceava"
+  description: "Țesături tradiționale cu motive specifice Bucovinei, lucrate pe război de țesut."
+  url: "/covoarele-moldovenesti"
+trasee:
+- title: "📍 Traseul Mănăstirilor (2 zile)"
+  content: "**Ziua 1:** Voroneț → Humor → Moldovița\n**Ziua 2:** Sucevița → Putna → Dragomirna"
+  url: "/traseul-manastirilor"
+- title: "🌲 Traseul Naturii (1-2 zile)"
+  content: "Piatra Pinului → Salina Cacica → Păstrăvăria Câmpulung → Cheile Zugrenilor"
+  url: "/traseul-naturii"
+- title: "🎨 Traseul Meșteșugurilor (1 zi)"
+  content: "Marginea (ceramică neagră) → Ciocănești (ouă încondeiate) → Rădăuți (covoare)"
+  url: "/traseul-mestesugurilor"
 ---
 
 ## Împrejurimile Gurii Humorului
@@ -26,35 +94,14 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 </div>
 {% else %}
 <div class="atractii-grid">
+{% for atractie in page.atractii %}
   <div class="atractie">
-    <h3>🏛️ Mănăstirea Moldovița</h3>
-    <p><strong>Distanța:</strong> ~25 km | <strong>Timp:</strong> 30 min</p>
-    <p>Celebră pentru frescele exterioare cu "Asediul Constantinopolului" și albastrul intens moldovenesc.</p>
+    <h3>{{ atractie.title }}</h3>
+    <p><strong>Distanța:</strong> {{ atractie.distance }} | <strong>Timp:</strong> {{ atractie.time }}</p>
+    <p>{{ atractie.description }}</p>
+    <a href="{{ atractie.url | prepend: site.baseurl }}" class="read-more">Citeste tot →</a>
   </div>
-
-  <div class="atractie">
-    <h3>⛪ Mănăstirea Sucevița</h3>
-    <p><strong>Distanța:</strong> ~35 km | <strong>Timp:</strong> 45 min</p>
-    <p>"Capodopera picturii medievale moldovenești" cu celebra "Scara Virtuților".</p>
-  </div>
-
-  <div class="atractie">
-    <h3>🏰 Mănăstirea Putna</h3>
-    <p><strong>Distanța:</strong> ~45 km | <strong>Timp:</strong> 1h</p>
-    <p>Necropola domnilor Moldovei, mormîntul lui Ștefan cel Mare și Sfînt.</p>
-  </div>
-
-  <div class="atractie">
-    <h3>⛪ Mănăstirea Bogdana</h3>
-    <p><strong>Distanța:</strong> ~50 km | <strong>Timp:</strong> 1h</p>
-    <p>Prima ctitorie a lui Ștefan cel Mare, construită în cinstea primei sale victorii.</p>
-  </div>
-
-  <div class="atractie">
-    <h3>🏛️ Mănăstirea Dragomirna</h3>
-    <p><strong>Distanța:</strong> ~40 km | <strong>Timp:</strong> 50 min</p>
-    <p>Cea mai înaltă biserică din Moldova, cu arhitectura sa unică și impresionantă.</p>
-  </div>
+{% endfor %}
 </div>
 {% endif %}
 
@@ -75,32 +122,16 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 </div>
 {% else %}
 <div class="natura-sectiuni">
+{% for categorie in page.natura %}
   <div class="natura-categorie">
-    <h3>🏔️ Rezervații Geologice</h3>
+    <h3>{{ categorie.title }}</h3>
     <ul>
-      <li><strong>Piatra Pinului</strong> - formațiune geologică spectaculoasă</li>
-      <li><strong>Piatra Șoimului</strong> - punct de belvedere natural</li>
-      <li><strong>Cheile Zugrenilor</strong> - canion natural</li>
+    {% for item in categorie.items %}
+      <li>{{ item }}</li>
+    {% endfor %}
     </ul>
   </div>
-
-  <div class="natura-categorie">
-    <h3>🌿 Rezervații Forestiere</h3>
-    <ul>
-      <li><strong>Codrul Secular Slătioara</strong> - pădure virgină</li>
-      <li><strong>Parcul Natural Călimani</strong> - diversitate biologică</li>
-      <li><strong>Rezervația Rarău</strong> - floră alpină unică</li>
-    </ul>
-  </div>
-
-  <div class="natura-categorie">
-    <h3>🐟 Atracții Speciale</h3>
-    <ul>
-      <li><strong>Păstrăvăria din Câmpulung</strong> - pescuit sportiv</li>
-      <li><strong>Salina Cacica</strong> - tunel de sare cu efecte terapeutice</li>
-      <li><strong>Lacul Bolătău</strong> - lac glaciar de munte</li>
-    </ul>
-  </div>
+{% endfor %}
 </div>
 {% endif %}
 
@@ -121,23 +152,14 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 </div>
 {% else %}
 <div class="traditii-grid">
+{% for traditie in page.traditii %}
   <div class="traditie">
-    <h3>🏺 Ceramica Neagră de Marginea</h3>
-    <p><strong>Distanța:</strong> ~30 km</p>
-    <p>Arta tradițională unică în lume - ceramică neagră lucrată manual după tehnici seculare.</p>
+    <h3>{{ traditie.title }}</h3>
+    <p><strong>{{ traditie.label }} {{ traditie.info }}</strong></p>
+    <p>{{ traditie.description }}</p>
+    <a href="{{ traditie.url | prepend: site.baseurl }}" class="read-more">Citeste tot →</a>
   </div>
-
-  <div class="traditie">
-    <h3>🥚 Încondeieratul Ouălor</h3>
-    <p><strong>Ciocănești, Moldovița</strong></p>
-    <p>Meștesugul tradițional bucovinean de decorare a ouălor cu motive ancestrale.</p>
-  </div>
-
-  <div class="traditie">
-    <h3>🧵 Covoarele Moldovenești</h3>
-    <p><strong>Rădăuți, Suceava</strong></p>
-    <p>Țesături tradiționale cu motive specifice Bucovinei, lucrate pe război de țesut.</p>
-  </div>
+{% endfor %}
 </div>
 {% endif %}
 
@@ -158,21 +180,13 @@ Descoperiți comoara Bucovinei! Gura Humorului este punctul ideal de plecare pen
 </div>
 {% else %}
 <div class="trasee-container">
+{% for traseu in page.trasee %}
   <div class="traseu">
-    <h3>📍 Traseul Mănăstirilor (2 zile)</h3>
-    <p><strong>Ziua 1:</strong> Voroneț → Humor → Moldovița</p>
-    <p><strong>Ziua 2:</strong> Sucevița → Putna → Dragomirna</p>
+    <h3>{{ traseu.title }}</h3>
+    {{ traseu.content | markdownify }}
+    <a href="{{ traseu.url | prepend: site.baseurl }}" class="read-more">Citeste tot →</a>
   </div>
-
-  <div class="traseu">
-    <h3>🌲 Traseul Naturii (1-2 zile)</h3>
-    <p>Piatra Pinului → Salina Cacica → Păstrăvăria Câmpulung → Cheile Zugrenilor</p>
-  </div>
-
-  <div class="traseu">
-    <h3>🎨 Traseul Meșteșugurilor (1 zi)</h3>
-    <p>Marginea (ceramică neagră) → Ciocănești (ouă încondeiate) → Rădăuți (covoare)</p>
-  </div>
+{% endfor %}
 </div>
 {% endif %}
 
