@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan Your Visit — Gura Humorului</title>
+<meta name="description" content="Build your route through Bucovina — length of stay, guesthouses, and a local guide to build your itinerary.">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+
+<header class="gh-header">
+  <a class="gh-header__brand" href="index.html">
+    <span class="gh-header__name">Gura Humorului</span>
+    <span class="gh-header__tagline">Bucovina · Romania</span>
+  </a>
+  <button class="gh-nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  <nav class="gh-header__nav">
+    <a class="gh-navlink" href="index.html#explore">Explore</a>
+    <a class="gh-navlink" href="index.html#explore">Monasteries</a>
+    <a class="gh-navlink" href="experiences.html">Experiences</a>
+    <a class="gh-navlink gh-navlink-active" href="plan-your-visit.html" aria-current="page">Plan Your Visit</a>
+    <a class="gh-navlink-cta" href="plan-your-visit.html">Book a Guide</a>
+  </nav>
+</header>
+
+<section class="gh-plan-hero">
+  <div class="gh-container" style="padding:0;max-width:var(--container-max)">
+    <div class="gh-section-heading" data-align="left" data-on-navy>
+      <div class="gh-eyebrow">Plan Your Visit</div>
+      <h2 class="gh-heading" style="font-size:var(--text-display-lg)">Build your route through Bucovina</h2>
+    </div>
+    <p class="gh-plan-hero__copy">Two hours from Suceava by car, or one train from Bucharest — most visitors stay two to four nights to see the painted monasteries at an unhurried pace.</p>
+  </div>
+</section>
+
+<section class="gh-section">
+  <div class="gh-container" style="padding:0;max-width:none">
+    <div class="gh-stay-panel">
+      <div>
+        <div class="gh-stay-panel__label">Length of stay</div>
+        <div class="gh-stay-panel__value"><span data-nights-value>3 nights</span></div>
+      </div>
+      <input class="gh-range" type="range" min="1" max="7" value="3" aria-label="Length of stay in nights" data-nights-slider>
+      <button class="gh-btn gh-btn--primary" type="button">Check availability</button>
+    </div>
+
+    <div class="gh-section-heading" data-align="left">
+      <div class="gh-eyebrow">Where to Stay</div>
+      <h2 class="gh-heading" style="font-size:var(--text-display-md)">Guesthouses built into the hillside</h2>
+    </div>
+
+    <div class="gh-grid-3" style="margin-top:40px">
+      <article class="gh-stay-card">
+        <div class="gh-placeholder gh-stay-card__image"><span class="gh-placeholder__label">Drop a photo of Casa Bucovineană</span></div>
+        <div class="gh-stay-card__body">
+          <h3 class="gh-stay-card__name">Casa Bucovineană</h3>
+          <p class="gh-stay-card__desc">Family-run pensiune on the old market square.</p>
+          <div class="gh-stay-card__price">€68/night</div>
+        </div>
+      </article>
+      <article class="gh-stay-card">
+        <div class="gh-placeholder gh-stay-card__image"><span class="gh-placeholder__label">Drop a photo of Hillside Manor</span></div>
+        <div class="gh-stay-card__body">
+          <h3 class="gh-stay-card__name">Hillside Manor</h3>
+          <p class="gh-stay-card__desc">Quiet countryside retreat with monastery views.</p>
+          <div class="gh-stay-card__price">€94/night</div>
+        </div>
+      </article>
+      <article class="gh-stay-card">
+        <div class="gh-placeholder gh-stay-card__image"><span class="gh-placeholder__label">Drop a photo of Voroneț Guesthouse</span></div>
+        <div class="gh-stay-card__body">
+          <h3 class="gh-stay-card__name">Voroneț Guesthouse</h3>
+          <p class="gh-stay-card__desc">A short walk from the monastery gate.</p>
+          <div class="gh-stay-card__price">€52/night</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="gh-section--sunken" style="text-align:center">
+  <div class="gh-container">
+    <h2 class="gh-cta-center__heading">Ready when you are</h2>
+    <p class="gh-cta-center__copy">A local guide can build your full itinerary — monasteries, trails, and craft workshops.</p>
+    <a class="gh-btn gh-btn--accent" href="index.html">Book a Guide</a>
+  </div>
+</section>
+
+<footer class="gh-footer">
+  <div>
+    <span class="gh-footer__brand-name">Gura Humorului</span>
+    <div class="gh-footer__tagline">Bucovina · Romania</div>
+  </div>
+  <nav class="gh-footer__nav">
+    <a class="gh-navlink" href="index.html#explore">Explore</a>
+    <a class="gh-navlink" href="index.html#explore">Monasteries</a>
+    <a class="gh-navlink" href="experiences.html">Experiences</a>
+    <a class="gh-navlink" href="plan-your-visit.html">Contact</a>
+  </nav>
+  <div class="gh-footer__copyright">© 2026 Gura Humorului Tourism Office</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/plan-visit.js"></script>
+</body>
+</html>

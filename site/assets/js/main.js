@@ -1,0 +1,10 @@
+(function () {
+  var toggle = document.querySelector('.gh-nav-toggle');
+  var nav = document.querySelector('.gh-header__nav');
+  if (!toggle || !nav) return;
+
+  toggle.addEventListener('click', function () {
+    var isOpen = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+})();
