@@ -4,6 +4,7 @@
   var data = JSON.parse(dataScript.textContent);
   var QUOTES = data.quotes;
   var LIVING_HEADINGS = data.headings;
+  var DOT_LABEL = data.dotLabel || 'Show quote {n}';
 
   var quoteIndex = 0;
   var headingIndex = 0;
@@ -37,7 +38,7 @@
     QUOTES.forEach(function (q, i) {
       var dot = document.createElement('button');
       dot.className = 'gh-dot' + (i === 0 ? ' gh-dot-active' : '');
-      dot.setAttribute('aria-label', 'Show quote ' + (i + 1));
+      dot.setAttribute('aria-label', DOT_LABEL.replace('{n}', i + 1));
       dot.addEventListener('click', function () { goTo(i); });
       dotsContainer.appendChild(dot);
     });
@@ -47,7 +48,10 @@
     if (nextBtn) nextBtn.addEventListener('click', function () { goTo(quoteIndex + 1); });
   }
 
-  if (livingHeading && LIVING_HEADINGS && LIVING_HEADINGS.length) {
+  var prefersReducedMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (livingHeading && LIVING_HEADINGS && LIVING_HEADINGS.length && !prefersReducedMotion) {
     setInterval(function () {
       headingIndex = (headingIndex + 1) % LIVING_HEADINGS.length;
       livingHeading.textContent = LIVING_HEADINGS[headingIndex];

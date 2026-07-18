@@ -11,6 +11,12 @@
   /* Gold — accent */
   --gold-100: #F1E5C4;
   --gold-300: #D9BD73;
+  /* gold-420 sits between gold-500 and gold-300 — used only where
+     navy-600 text sits on a gold background (buttons/CTAs), since
+     gold-500 there is only ~3.57:1 (fails WCAG AA 4.5:1); gold-420
+     clears it at ~4.96:1 while staying close to the "antique gold"
+     tone gold-500 carries everywhere else (eyebrows, badges, links). */
+  --gold-420: #B4954A;
   --gold-500: #9C7B2E;
   --gold-700: #6E5620;
   /* Cream / neutrals */
@@ -44,11 +50,15 @@
   --text-on-inverse: var(--cream-50);
   --text-on-inverse-muted: rgba(247, 242, 231, .75);
   --text-accent: var(--gold-500);
+  /* gold-500 fails 4.5:1 on cream/white at small sizes (~3.57:1) —
+     gold-700 clears it (~6.2:1); use this for accent text on light
+     surfaces (gold-300 on navy is unaffected, already ~7.8:1). */
+  --text-accent-on-light: var(--gold-700);
 
   /* Aliases — interactive */
   --action-primary-bg: var(--navy-600);
   --action-primary-text: var(--cream-50);
-  --action-accent-bg: var(--gold-500);
+  --action-accent-bg: var(--gold-420);
   --action-accent-text: var(--navy-600);
   --link-default: var(--navy-600);
   --link-hover: var(--gold-500);

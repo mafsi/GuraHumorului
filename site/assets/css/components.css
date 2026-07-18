@@ -29,7 +29,7 @@ a:hover { color: var(--link-hover); }
   font-weight: var(--weight-semibold);
   letter-spacing: var(--tracking-eyebrow);
   text-transform: uppercase;
-  color: var(--text-accent);
+  color: var(--text-accent-on-light);
   margin-bottom: 14px;
 }
 .gh-section-heading[data-on-navy] .gh-eyebrow { color: var(--gold-300); }
@@ -61,7 +61,7 @@ a:hover { color: var(--link-hover); }
 .gh-btn--primary { background: var(--action-primary-bg); color: var(--action-primary-text); }
 .gh-btn--primary:hover { background: var(--navy-800); color: var(--action-primary-text); }
 .gh-btn--accent { background: var(--action-accent-bg); color: var(--action-accent-text); }
-.gh-btn--accent:hover { background: var(--gold-700); color: var(--action-accent-text); }
+.gh-btn--accent:hover { background: var(--gold-500); color: var(--action-accent-text); }
 .gh-btn--secondary { background: transparent; color: var(--text-primary); border: 1.5px solid var(--border-strong); }
 .gh-btn--secondary:hover { border-color: var(--gold-500); color: var(--text-primary); }
 .gh-btn--ghost { background: transparent; color: var(--text-on-inverse); border: 1.5px solid rgba(247, 242, 231, .5); }
@@ -113,7 +113,7 @@ a:hover { color: var(--link-hover); }
   text-decoration: none;
   white-space: nowrap;
 }
-.gh-navlink-cta:hover { background: var(--gold-700); color: var(--action-accent-text); }
+.gh-navlink-cta:hover { background: var(--gold-500); color: var(--action-accent-text); }
 .gh-inline-link {
   font-size: 14px;
   font-weight: var(--weight-semibold);
@@ -218,26 +218,37 @@ a:hover { color: var(--link-hover); }
   background: transparent;
   border: 1.5px solid rgba(247, 242, 231, .35);
   color: var(--text-on-inverse);
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-pill);
   cursor: pointer;
   font-size: 16px;
   transition: background var(--duration-standard) var(--ease-standard);
 }
 .gh-carousel-arrow:hover { background: rgba(247, 242, 231, .12); }
-.gh-dots { display: flex; gap: 8px; }
+.gh-dots { display: flex; gap: 4px; }
+/* Visual dot stays a subtle 7px; the button itself is a 24x24 tap
+   target (WCAG 2.2 SC 2.5.8 minimum) centered on it. */
 .gh-dot {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.gh-dot::before {
+  content: "";
   width: 7px;
   height: 7px;
   border-radius: 50%;
   background: rgba(247, 242, 231, .35);
-  border: none;
-  cursor: pointer;
-  padding: 0;
   transition: background var(--duration-standard) var(--ease-standard);
 }
-.gh-dot-active { background: var(--gold-300); }
+.gh-dot-active::before { background: var(--gold-300); }
 
 /* Tag chip (used on moment cards) */
 .gh-tag {
@@ -286,7 +297,7 @@ a:hover { color: var(--link-hover); }
   font-weight: var(--weight-semibold);
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 .gh-month-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border-default); }
 .gh-month-dot-active { background: var(--gold-500); }
@@ -383,7 +394,7 @@ a:hover { color: var(--link-hover); }
   font-weight: var(--weight-semibold);
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: var(--text-accent);
+  color: var(--text-accent-on-light);
 }
 
 /* Guide package card (offers page) */
@@ -399,7 +410,7 @@ a:hover { color: var(--link-hover); }
   font-weight: var(--weight-semibold);
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: var(--text-accent);
+  color: var(--text-accent-on-light);
   margin-bottom: 10px;
 }
 .gh-package__title {

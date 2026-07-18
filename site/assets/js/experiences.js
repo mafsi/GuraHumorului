@@ -7,6 +7,7 @@
     tabs.forEach(function (tab) {
       var isActive = tab.getAttribute('data-tab') === key;
       tab.classList.toggle('gh-tab-active', isActive);
+      tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
     });
     panels.forEach(function (panel) {
       panel.hidden = panel.getAttribute('data-panel') !== key;

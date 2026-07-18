@@ -32,6 +32,22 @@ each has one line on why it matters, not a full spec.
       working hamburger nav on mobile.
 - [x] Design tokens (`site/assets/css/tokens.css`) ported 1:1 from the
       design system spec in `design-specs/`.
+- [x] GitHub Pages deploy workflow (`.github/workflows/deploy-pages.yml`)
+      publishing `site/` on every push to `master`.
+- [x] `.gitignore` (OS/editor junk, logs, `.env`, `node_modules/`) and a
+      dedicated `site/assets/images/` folder with a filename-mapping
+      README for when real photography is ready to drop in.
+- [x] UX/accessibility audit pass: fixed text-contrast failures (eyebrow
+      labels, month-calendar labels, and the gold accent-button
+      background — all previously below WCAG AA 4.5:1, verified by
+      computing actual contrast ratios against the design tokens),
+      touch targets under 44×44px (carousel arrows, mobile nav toggle,
+      quote-carousel dots now meet the WCAG 2.2 24×24px minimum),
+      a hardcoded-English accessibility label that broke on Romanian
+      pages, a `prefers-reduced-motion` gap on the auto-rotating
+      homepage heading, and incomplete ARIA wiring on the Experiences
+      page's tabs (now proper `tablist`/`tab`/`tabpanel` roles with
+      `aria-controls`/`aria-labelledby` and live `aria-selected` updates).
 
 ## Not done
 
@@ -63,16 +79,24 @@ each has one line on why it matters, not a full spec.
       `LocalBusiness`) so search engines understand the site's content.
 
 ### Ops
-- [ ] Actual hosting/deployment. The site is currently just static files
-      with no deploy pipeline or live URL.
+- [ ] GitHub Pages source still needs to be switched to "GitHub Actions"
+      in the repo's Settings → Pages (one-time manual step — the
+      workflow itself is already in place and will deploy automatically
+      once that's set).
 - [ ] Analytics (with a consent banner if added, given GDPR).
 - [ ] A lightweight way for the owner to edit copy/prices without
       hand-editing HTML — even just a documented edit workflow, since
       there's no CMS.
 
 ### Quality
-- [ ] Accessibility pass — contrast, focus order, and alt text once real
-      images exist (placeholders currently stand in for `alt` content).
+- [ ] Alt text on real `<img>` tags once real photography replaces the
+      `.gh-placeholder` blocks (the audit pass covered everything that
+      could be checked without real images in place).
+- [ ] Full keyboard tab navigation on the Experiences page — tabs now
+      have correct ARIA roles/associations, but arrow-key roving
+      tabindex (the standard WAI-ARIA tabs pattern) isn't implemented;
+      currently each tab is just a separate stop in the regular Tab
+      order.
 - [ ] Cross-browser testing beyond what's been checked so far.
 - [ ] A custom 404 page.
 

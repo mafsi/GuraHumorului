@@ -30,8 +30,8 @@
   background: transparent;
   border: 1.5px solid rgba(247, 242, 231, .4);
   border-radius: var(--radius-sm);
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   color: var(--text-on-inverse);
   cursor: pointer;
   font-size: 18px;
@@ -117,7 +117,7 @@
 .gh-cta-copy { font-size: 16px; line-height: 1.65; color: var(--text-secondary); margin: 0 0 28px; max-width: 460px; }
 .gh-cta-heading { font-family: var(--font-display); font-weight: var(--weight-semibold); font-size: 34px; color: var(--text-primary); margin: 0 0 16px; }
 .gh-newsletter { background: var(--white); border-radius: 16px; padding: 36px; border: 1px solid var(--border-default); }
-.gh-newsletter__eyebrow { font-size: 12px; font-weight: var(--weight-semibold); letter-spacing: .14em; text-transform: uppercase; color: var(--text-accent); margin-bottom: 12px; }
+.gh-newsletter__eyebrow { font-size: 12px; font-weight: var(--weight-semibold); letter-spacing: .14em; text-transform: uppercase; color: var(--text-accent-on-light); margin-bottom: 12px; }
 .gh-newsletter__copy { font-size: 14px; line-height: 1.6; color: var(--text-secondary); margin: 0 0 20px; }
 .gh-newsletter__form { display: flex; flex-direction: column; gap: 12px; }
 

@@ -50,12 +50,12 @@
 <section class="gh-section--tight">
   <div class="gh-container" style="padding:0;max-width:none">
     <div class="gh-tabs" role="tablist">
-      <button class="gh-tab gh-tab-active" type="button" data-tab="festivals" role="tab" aria-selected="true">Festivaluri &amp; Tradiții</button>
-      <button class="gh-tab" type="button" data-tab="outdoor" role="tab" aria-selected="false">În aer liber &amp; Trasee</button>
-      <button class="gh-tab" type="button" data-tab="food" role="tab" aria-selected="false">Gastronomie &amp; Meșteșug</button>
+      <button class="gh-tab gh-tab-active" type="button" id="tab-festivals" data-tab="festivals" role="tab" aria-selected="true" aria-controls="panel-festivals">Festivaluri &amp; Tradiții</button>
+      <button class="gh-tab" type="button" id="tab-outdoor" data-tab="outdoor" role="tab" aria-selected="false" aria-controls="panel-outdoor">În aer liber &amp; Trasee</button>
+      <button class="gh-tab" type="button" id="tab-food" data-tab="food" role="tab" aria-selected="false" aria-controls="panel-food">Gastronomie &amp; Meșteșug</button>
     </div>
 
-    <div data-panel="festivals">
+    <div id="panel-festivals" data-panel="festivals" role="tabpanel" aria-labelledby="tab-festivals" tabindex="0">
       <div class="gh-section-heading" data-align="left">
         <div class="gh-eyebrow">Festivaluri &amp; Tradiții</div>
         <h2 class="gh-heading" style="font-size:var(--text-display-sm)">Valea își ține calendarul</h2>
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div data-panel="outdoor" hidden>
+    <div id="panel-outdoor" data-panel="outdoor" role="tabpanel" aria-labelledby="tab-outdoor" tabindex="0" hidden>
       <div class="gh-section-heading" data-align="left">
         <div class="gh-eyebrow">În aer liber &amp; Trasee</div>
         <h2 class="gh-heading" style="font-size:var(--text-display-sm)">Dealurile își țin propriul ritm</h2>
@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div data-panel="food" hidden>
+    <div id="panel-food" data-panel="food" role="tabpanel" aria-labelledby="tab-food" tabindex="0" hidden>
       <div class="gh-section-heading" data-align="left">
         <div class="gh-eyebrow">Gastronomie &amp; Meșteșug</div>
         <h2 class="gh-heading" style="font-size:var(--text-display-sm)">Mese tihnite și războaie de țesut în lucru</h2>
