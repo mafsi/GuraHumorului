@@ -364,3 +364,61 @@ a:hover { color: var(--link-hover); }
   max-width: 480px;
   margin: 0;
 }
+
+/* Seasonal availability notice (guide offers page) */
+.gh-notice {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  background: var(--surface-sunken);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+.gh-notice__label {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-accent);
+}
+
+/* Guide package card (offers page) */
+.gh-package {
+  background: var(--surface-card);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.gh-package__duration {
+  font-size: 12px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text-accent);
+  margin-bottom: 10px;
+}
+.gh-package__title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: 21px;
+  color: var(--text-primary);
+  margin: 0 0 12px;
+}
+.gh-package__copy {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 20px;
+}
+.gh-package__price {
+  font-family: var(--font-display);
+  font-size: 17px;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+}
+.gh-package .gh-btn { margin-top: auto; align-self: flex-start; }
