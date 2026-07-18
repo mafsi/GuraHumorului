@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;background:#F7F2E7;font-family:'Inter',sans-serif;}
+    a{color:#1C2A4A;text-decoration:none;} a:hover{color:#9C7B2E;}
+    ::selection{background:#9C7B2E;color:#fff;}
+    .gh-nav-link{color:#F7F2E7;opacity:.85;font-size:14px;font-weight:500;}
+    .gh-nav-link:hover{opacity:1;color:#F7F2E7;}
+  </style>
+</helmet>
+<div style="background:#F7F2E7;color:#1A1B22;">
+
+  <header style="background:#1C2A4A;padding:22px 56px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="display:flex;flex-direction:column;">
+      <span style="font-family:'Fraunces',serif;font-weight:600;font-size:21px;color:#F7F2E7;letter-spacing:.01em;">Gura Humorului</span>
+      <span style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#C7A94C;margin-top:2px;">Bucovina · Romania</span>
+    </div>
+    <nav style="display:flex;gap:36px;align-items:center;">
+      <a class="gh-nav-link" href="#">Explore</a>
+      <a class="gh-nav-link" href="#">Monasteries</a>
+      <a class="gh-nav-link" href="#">Nature</a>
+      <a class="gh-nav-link" href="#">Plan Your Visit</a>
+      <a href="#" style="background:#C7A94C;color:#1C2A4A;font-size:13px;font-weight:600;padding:10px 22px;border-radius:100px;">Book a Guide</a>
+    </nav>
+  </header>
+
+  <section style="position:relative;height:640px;">
+    <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="hero-main" shape="rect" style="position:absolute;inset:0;" placeholder="Drop hero photo — Voroneț Monastery or Bucovina hills" hint-size="100%,100%"></x-import>
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg, rgba(10,15,30,.15) 0%, rgba(10,15,30,.65) 100%);pointer-events:none;"></div>
+    <div style="position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:64px 56px;pointer-events:none;">
+      <div style="display:inline-flex;width:fit-content;align-items:center;gap:8px;background:rgba(247,242,231,.15);backdrop-filter:blur(6px);color:#F7F2E7;padding:7px 16px;border-radius:100px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:20px;">Southern Bucovina</div>
+      <h1 style="font-family:'Fraunces',serif;font-weight:600;font-size:56px;line-height:1.05;color:#F7F2E7;margin:0 0 18px;max-width:680px;">Where painted monasteries meet ancient forest</h1>
+      <p style="font-size:17px;line-height:1.6;color:rgba(247,242,231,.85);max-width:460px;margin:0 0 28px;">A UNESCO landscape of frescoed walls, beech woodland, and centuries of Bucovinian tradition — one valley, endless ways to discover it.</p>
+      <div style="display:flex;gap:14px;pointer-events:auto;">
+        <button style="background:#C7A94C;color:#1C2A4A;border:none;padding:15px 30px;border-radius:10px;font-size:15px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;">Plan your visit</button>
+        <button style="background:transparent;color:#F7F2E7;border:1.5px solid rgba(247,242,231,.5);padding:15px 30px;border-radius:10px;font-size:15px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;">Watch the film</button>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:1180px;margin:0 auto;padding:96px 32px;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;">
+    <div>
+      <div style="font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#9C7B2E;margin-bottom:16px;">Welcome</div>
+      <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:36px;line-height:1.15;color:#1A1B22;margin:0 0 20px;">A living gallery of faith, colour, and craft</h2>
+      <p style="font-size:16px;line-height:1.7;color:#5B5A52;margin:0 0 20px;">Since the 15th century, the monasteries around Gura Humorului have carried their frescoes through winters and centuries alike. Today the town is the quiet gateway to that world — trailheads, workshops, and guesthouses within a short walk of the old market square.</p>
+      <a href="#" style="font-size:14px;font-weight:600;border-bottom:1.5px solid #9C7B2E;padding-bottom:2px;">Read the town's history</a>
+    </div>
+    <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="intro-side" shape="rounded" radius="18" style="width:100%;height:420px;" placeholder="Drop a photo of Voroneț frescoes or the old town" hint-size="100%,420px"></x-import>
+  </section>
+
+  <section style="background:#EFE6D0;padding:96px 0;">
+    <div style="max-width:1180px;margin:0 auto;padding:0 32px;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:48px;gap:24px;flex-wrap:wrap;">
+        <div>
+          <div style="font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#9C7B2E;margin-bottom:14px;">Explore</div>
+          <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:36px;color:#1A1B22;margin:0;">Three ways into Bucovina</h2>
+        </div>
+        <a href="#" style="font-size:14px;font-weight:600;border-bottom:1.5px solid #9C7B2E;padding-bottom:2px;">View all experiences</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;">
+        <div style="background:#FFFFFF;border-radius:16px;overflow:hidden;">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="card-monastery" shape="rect" style="width:100%;height:220px;" placeholder="Voroneț Monastery exterior" hint-size="100%,220px"></x-import>
+          <div style="padding:26px;">
+            <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:#1A1B22;margin:0 0 8px;">Voroneț Monastery</h3>
+            <p style="font-size:14px;line-height:1.6;color:#5B5A52;margin:0;">The "Sistine Chapel of the East" — famed for its cobalt-blue exterior frescoes depicting the Last Judgment.</p>
+          </div>
+        </div>
+        <div style="background:#FFFFFF;border-radius:16px;overflow:hidden;">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="card-trails" shape="rect" style="width:100%;height:220px;" placeholder="Beech forest trail in the hills" hint-size="100%,220px"></x-import>
+          <div style="padding:26px;">
+            <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:#1A1B22;margin:0 0 8px;">Trails of Obcinele Bucovinei</h3>
+            <p style="font-size:14px;line-height:1.6;color:#5B5A52;margin:0;">Waymarked routes through old-growth beech forest, with viewpoints over the monastery valleys below.</p>
+          </div>
+        </div>
+        <div style="background:#FFFFFF;border-radius:16px;overflow:hidden;">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="card-craft" shape="rect" style="width:100%;height:220px;" placeholder="Egg painting or wool weaving craft" hint-size="100%,220px"></x-import>
+          <div style="padding:26px;">
+            <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:20px;color:#1A1B22;margin:0 0 8px;">Bucovinian Craft Workshops</h3>
+            <p style="font-size:14px;line-height:1.6;color:#5B5A52;margin:0;">Learn hand-painted egg decoration and wool weaving from artisans keeping the tradition alive.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#1C2A4A;padding:110px 32px;">
+    <div style="max-width:820px;margin:0 auto;text-align:center;">
+      <div style="font-family:'Fraunces',serif;font-size:64px;color:#C7A94C;line-height:1;margin-bottom:16px;">"</div>
+      <p style="font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:30px;line-height:1.45;color:#F7F2E7;margin:0 0 28px;">The blue of Voroneț is unlike any colour I've seen elsewhere — it feels less painted than grown into the wall itself.</p>
+      <div style="font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#C7A94C;">A visitor, autumn 2025</div>
+    </div>
+  </section>
+
+  <section style="max-width:1180px;margin:0 auto;padding:96px 32px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#E6DCC6;border-radius:20px;overflow:hidden;">
+      <div style="background:#FFFFFF;padding:56px 48px;">
+        <div style="font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#9C7B2E;margin-bottom:14px;">Getting Here</div>
+        <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:26px;color:#1A1B22;margin:0 0 14px;">Two hours from Suceava, one train from Bucharest</h3>
+        <p style="font-size:15px;line-height:1.65;color:#5B5A52;margin:0 0 20px;">Gura Humorului sits on the main rail line through Bucovina, with easy connections onward to each painted monastery by local guide or car.</p>
+        <a href="#" style="font-size:14px;font-weight:600;border-bottom:1.5px solid #9C7B2E;padding-bottom:2px;">See travel routes</a>
+      </div>
+      <div style="background:#FFFFFF;padding:56px 48px;">
+        <div style="font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#9C7B2E;margin-bottom:14px;">Where to Stay</div>
+        <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:26px;color:#1A1B22;margin:0 0 14px;">Guesthouses built into the hillside</h3>
+        <p style="font-size:15px;line-height:1.65;color:#5B5A52;margin:0 0 20px;">From family-run pensiuni to quiet countryside retreats, most stays are a short walk from the old market and within reach of the monastery trail.</p>
+        <a href="#" style="font-size:14px;font-weight:600;border-bottom:1.5px solid #9C7B2E;padding-bottom:2px;">Browse places to stay</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#EFE6D0;padding:80px 32px;text-align:center;">
+    <h2 style="font-family:'Fraunces',serif;font-weight:600;font-size:32px;color:#1A1B22;margin:0 0 16px;">Ready to see Bucovina in colour?</h2>
+    <p style="font-size:16px;color:#5B5A52;margin:0 0 32px;">Start planning your route through the painted monasteries.</p>
+    <button style="background:#1C2A4A;color:#F7F2E7;border:none;padding:16px 36px;border-radius:10px;font-size:15px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;">Plan your visit</button>
+  </section>
+
+  <footer style="background:#1C2A4A;padding:56px;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;">
+    <div>
+      <span style="font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:#F7F2E7;">Gura Humorului</span>
+      <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#C7A94C;margin-top:4px;">Bucovina · Romania</div>
+    </div>
+    <nav style="display:flex;gap:28px;flex-wrap:wrap;">
+      <a class="gh-nav-link" href="#">Explore</a>
+      <a class="gh-nav-link" href="#">Monasteries</a>
+      <a class="gh-nav-link" href="#">Stay</a>
+      <a class="gh-nav-link" href="#">Contact</a>
+    </nav>
+    <div style="font-size:12px;color:rgba(247,242,231,.5);">© 2026 Gura Humorului Tourism Office</div>
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>

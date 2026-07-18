@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/styles.css">
+  <script src="_ds/gura-humorului-design-system-d0ed22b7-782a-4010-bd57-851adbf81c1b/_ds_bundle.js"></script>
+  <script src="image-slot.js"></script>
+  <style>
+    body{margin:0}
+    a{color:var(--link-default)}
+    a:hover{color:var(--link-hover)}
+    .gh-navlink{font-family:var(--font-body);font-size:14px;font-weight:500;color:var(--text-on-inverse);opacity:.85;text-decoration:none;white-space:nowrap;transition:opacity var(--duration-standard) var(--ease-standard)}
+    .gh-navlink:hover{opacity:1;color:var(--text-on-inverse)}
+    .gh-navlink-active{opacity:1 !important}
+    .gh-tab{font-family:var(--font-body);font-size:14px;font-weight:600;padding:12px 22px;border-radius:var(--radius-pill);border:1.5px solid var(--border-strong);background:transparent;color:var(--text-secondary);cursor:pointer;transition:background var(--duration-standard) var(--ease-standard),color var(--duration-standard) var(--ease-standard),border-color var(--duration-standard) var(--ease-standard);white-space:nowrap}
+    .gh-tab:hover{border-color:var(--gold-500)}
+    .gh-tab-active{background:var(--navy-600);border-color:var(--navy-600);color:var(--text-on-inverse)}
+    .gh-month{display:flex;flex-direction:column;align-items:center;gap:8px;flex:1;min-width:0}
+    .gh-month-label{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted)}
+    .gh-month-dot{width:8px;height:8px;border-radius:50%;background:var(--border-default)}
+    .gh-month-dot-active{background:var(--gold-500)}
+  </style>
+</helmet>
+
+<div style="background:var(--surface-page);color:var(--text-primary);font-family:var(--font-body)">
+
+  <header style="background:var(--navy-600);padding:22px 56px;display:flex;align-items:center;justify-content:space-between">
+    <a href="Homepage.dc.html" style="display:flex;flex-direction:column;text-decoration:none;flex-shrink:0">
+      <span style="font-family:var(--font-display);font-weight:600;font-size:21px;color:var(--text-on-inverse);white-space:nowrap">Gura Humorului</span>
+      <span style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-300);margin-top:2px;white-space:nowrap">Bucovina · Romania</span>
+    </a>
+    <nav style="display:flex;gap:36px;align-items:center;flex-shrink:0">
+      <a class="gh-navlink" href="Homepage.dc.html#explore">Explore</a>
+      <a class="gh-navlink" href="Homepage.dc.html#explore">Monasteries</a>
+      <a class="gh-navlink gh-navlink-active" href="Experiences.dc.html">Experiences</a>
+      <a class="gh-navlink" href="Homepage.dc.html#plan">Plan Your Visit</a>
+      <a href="Homepage.dc.html#plan" style="background:var(--action-accent-bg);color:var(--action-accent-text);font-size:13px;font-weight:600;padding:10px 22px;border-radius:var(--radius-pill);text-decoration:none;white-space:nowrap">Book a Guide</a>
+    </nav>
+  </header>
+
+  <section style="position:relative;height:400px;background:var(--navy-600)">
+    <image-slot id="exp-hero" shape="rect" placeholder="Drop photo — festival, trail, or table scene" style="position:absolute;top:0;left:0;right:0;bottom:0"></image-slot>
+    <div style="position:absolute;inset:0;background:var(--scrim-hero);pointer-events:none"></div>
+    <div style="position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:56px">
+      <div style="margin-bottom:18px"><x-import component-from-global-scope="GuraHumoruluiDesignSystem_d0ed22.Badge" tone="glass" hint-size="auto,32px">The Living Valley</x-import></div>
+      <h1 style="font-family:var(--font-display);font-weight:600;font-size:44px;line-height:1.1;color:var(--text-on-inverse);margin:0 0 14px;max-width:640px">Bucovina never stops moving — it just never rushes</h1>
+      <p style="font-size:16px;line-height:1.6;color:var(--text-on-inverse-muted);max-width:520px;margin:0">Festivals, forest trails, and long candlelit suppers, set to the same unhurried tempo as the monasteries themselves.</p>
+    </div>
+  </section>
+
+  <section style="max-width:var(--container-max);margin:0 auto;padding:80px 32px 40px">
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:56px">
+      <sc-for list="{{ tabs }}" as="tab" hint-placeholder-count="3">
+        <button class="gh-tab {{ tab.activeClass }}" onClick="{{ tab.onClick }}">{{ tab.label }}</button>
+      </sc-for>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+      <x-import component-from-global-scope="GuraHumoruluiDesignSystem_d0ed22.SectionHeading" eyebrow="{{ activeCategory.eyebrow }}" heading="{{ activeCategory.heading }}" hint-size="auto,80px"></x-import>
+    </div>
+    <p style="font-size:15px;line-height:1.65;color:var(--text-secondary);margin:0 0 44px;max-width:640px">{{ activeCategory.intro }}</p>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:96px">
+      <sc-for list="{{ activeCategory.items }}" as="item" hint-placeholder-count="3">
+        <x-import component-from-global-scope="GuraHumoruluiDesignSystem_d0ed22.Card" image-slot-id="{{ item.id }}" image-placeholder="{{ item.placeholder }}" title="{{ item.title }}" hint-size="100%,420px">{{ item.copy }}</x-import>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="background:var(--surface-sunken);padding:80px 0">
+    <div style="max-width:var(--container-max);margin:0 auto;padding:0 32px">
+      <x-import component-from-global-scope="GuraHumoruluiDesignSystem_d0ed22.SectionHeading" eyebrow="Plan Ahead" heading="A year of reasons to come back" hint-size="auto,60px"></x-import>
+      <p style="font-size:14px;line-height:1.6;color:var(--text-secondary);margin:20px 0 40px;max-width:600px">The gold months mark the valley's three biggest gatherings — everything else runs quietly, on its own schedule.</p>
+      <div style="display:flex;gap:4px">
+        <sc-for list="{{ months }}" as="m" hint-placeholder-count="12">
+          <div class="gh-month">
+            <div class="gh-month-dot {{ m.dotClass }}"></div>
+            <div class="gh-month-label">{{ m.label }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width:var(--container-max);margin:0 auto;padding:96px 32px;text-align:center">
+    <h2 style="font-family:var(--font-display);font-weight:600;font-size:32px;color:var(--text-primary);margin:0 0 16px">Bring these into one itinerary</h2>
+    <p style="font-size:16px;color:var(--text-secondary);margin:0 0 32px;max-width:520px;margin-left:auto;margin-right:auto">Tell us your dates and pace, and we'll match monasteries, trails, and suppers to fit.</p>
+    <x-import component-from-global-scope="GuraHumoruluiDesignSystem_d0ed22.Button" variant="primary" style="white-space:nowrap;width:max-content;margin:0 auto" hint-size="auto,48px">Plan your visit</x-import>
+  </section>
+
+  <footer style="background:var(--navy-600);padding:56px;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px">
+    <div>
+      <span style="font-family:var(--font-display);font-weight:600;font-size:19px;color:var(--text-on-inverse)">Gura Humorului</span>
+      <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-300);margin-top:4px">Bucovina · Romania</div>
+    </div>
+    <nav style="display:flex;gap:28px;flex-wrap:wrap">
+      <a class="gh-navlink" href="Homepage.dc.html#explore">Explore</a>
+      <a class="gh-navlink" href="Homepage.dc.html#explore">Monasteries</a>
+      <a class="gh-navlink" href="Experiences.dc.html">Experiences</a>
+      <a class="gh-navlink" href="Homepage.dc.html#plan">Contact</a>
+    </nav>
+    <div style="font-size:12px;color:rgba(247,242,231,.5)">© 2026 Gura Humorului Tourism Office</div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const CATEGORIES = [
+  {
+    key: 'festivals',
+    label: 'Festivals & Traditions',
+    eyebrow: 'Festivals & Traditions',
+    heading: 'The valley keeps its calendar',
+    intro: "Bucovina's biggest gatherings follow the church calendar and the harvest, not a tourist season — each one older than the roads that now lead to it.",
+    items: [
+      { id: 'fest-1', placeholder: 'Winter carol singers in the market square', title: 'Winter carols in the old market', copy: "Each December, colinde singers move door to door in sheepskin and embroidered wool — a tradition older than the town's rail line." },
+      { id: 'fest-2', placeholder: 'Painted eggs laid out for Holy Week fair', title: 'The painted egg fair', copy: 'Over Holy Week, artisans from every valley village bring a year of hand-painted eggs to the square — wax, dye, and steady hands.' },
+      { id: 'fest-3', placeholder: 'Wool and harvest fair stalls', title: 'Wool & harvest fair', copy: 'A September gathering of shepherds and weavers, when the summer flocks come down from the ridge pastures for shearing and trade.' },
+    ],
+  },
+  {
+    key: 'outdoor',
+    label: 'Outdoor & Trails',
+    eyebrow: 'Outdoor & Trails',
+    heading: 'The hills keep their own pace',
+    intro: 'Waymarked routes through the Obcinele Bucovinei climb gently from monastery to ridge, rewarding an early start with quiet views.',
+    items: [
+      { id: 'out-1', placeholder: 'Sunrise ridge view over the monastery valleys', title: 'Sunrise on Obcina Mare', copy: 'Guided rides and hikes climb through beech and spruce to ridge-top views over every monastery valley at once.' },
+      { id: 'out-2', placeholder: 'Cyclist on a forest road in the Slănic valley', title: 'Slănic Valley cycling loop', copy: 'A half-day loop of quiet forest roads and river crossings, easing back into town in time for supper.' },
+      { id: 'out-3', placeholder: 'Rafters on the Moldova river in spring', title: 'Moldova river run', copy: 'A gentler stretch of white water each spring, when the snowmelt lifts the river through the pine valley below town.' },
+    ],
+  },
+  {
+    key: 'food',
+    label: 'Food & Craft',
+    eyebrow: 'Food & Craft',
+    heading: 'Slow tables and working looms',
+    intro: 'The valley eats and works at the same unhurried pace it prays — long suppers, hand looms, and market days that still set the week.',
+    items: [
+      { id: 'food-1', placeholder: 'Candlelit supper inside a restored distillery', title: 'Supper at the old distillery', copy: 'A restored țuică distillery now serves slow Bucovinian suppers by candlelight, with live violin most Friday evenings.' },
+      { id: 'food-2', placeholder: 'Wool-weaving looms in Ciocănești', title: 'The looms of Ciocănești', copy: 'A village of hand-painted houses and working looms, where weavers still teach the craft on request.' },
+      { id: 'food-3', placeholder: 'Market stall with cheese and smoked trout', title: 'Market-day tasting', copy: 'Saturday mornings in the old market pair smoked trout from the hills with sheep cheese from the high pastures.' },
+    ],
+  },
+];
+
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const GOLD_MONTHS = ['Apr','Sep','Dec'];
+
+class Component extends DCLogic {
+  state = { activeKey: 'festivals' };
+
+  renderVals() {
+    const { activeKey } = this.state;
+    return {
+      tabs: CATEGORIES.map(c => ({
+        label: c.label,
+        activeClass: c.key === activeKey ? 'gh-tab-active' : '',
+        onClick: () => this.setState({ activeKey: c.key }),
+      })),
+      activeCategory: CATEGORIES.find(c => c.key === activeKey),
+      months: MONTHS.map(label => ({
+        label,
+        dotClass: GOLD_MONTHS.includes(label) ? 'gh-month-dot-active' : '',
+      })),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

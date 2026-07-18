@@ -1,0 +1,37 @@
+:root{
+/* Navy — primary */
+--navy-50:#E7EAF1;--navy-200:#B4BED4;--navy-400:#4A5C87;--navy-600:#1C2A4A;--navy-800:#131D33;--navy-950:#090D1A;
+/* Gold — accent */
+--gold-100:#F1E5C4;--gold-300:#D9BD73;--gold-500:#9C7B2E;--gold-700:#6E5620;
+/* Cream / neutrals */
+--white:#FFFFFF;--cream-50:#F7F2E7;--ivory-150:#E6DCC6;--parchment-300:#D9C9A3;--neutral-400:#AFA48C;--neutral-600:#77705F;--neutral-800:#413C31;--ink-950:#1A1B22;
+/* Semantic */
+--success:#3F5E44;--warning:#9C7B2E;--error:#7A2733;--info:#3E6480;
+
+/* Aliases — surfaces */
+--surface-page:var(--cream-50);
+--surface-raised:var(--white);
+--surface-sunken:#EFE6D0;
+--surface-inverse:var(--navy-600);
+--surface-card:var(--white);
+--border-default:var(--ivory-150);
+--border-strong:#C9BE9E;
+
+/* Aliases — text */
+--text-primary:var(--ink-950);
+--text-secondary:#5B5A52;
+--text-muted:#8A8272;
+--text-on-inverse:var(--cream-50);
+--text-on-inverse-muted:rgba(247,242,231,.75);
+--text-accent:var(--gold-500);
+
+/* Aliases — interactive */
+--action-primary-bg:var(--navy-600);
+--action-primary-text:var(--cream-50);
+--action-accent-bg:var(--gold-500);
+--action-accent-text:var(--navy-600);
+--link-default:var(--navy-600);
+--link-hover:var(--gold-500);
+--focus-ring:var(--gold-500);
+--selection-bg:var(--gold-500);
+}

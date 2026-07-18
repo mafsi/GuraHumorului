@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap');
+/* Google Fonts CDN carries the full weight/style range above; this @font-face
+   is a same-origin-detectable declaration of the display face for tooling that
+   inspects local sources (actual serving still goes through the CDN import). */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxujDg.ttf) format('truetype');}
+:root{
+--font-display:'Fraunces',serif;
+--font-body:'Inter',sans-serif;
+--font-mono:'Inter',ui-monospace,monospace;
+
+/* Display scale (Fraunces 600, tight leading) */
+--text-display-xl:56px;--leading-display-xl:1.05;
+--text-display-lg:40px;--leading-display-lg:1.1;
+--text-display-md:34px;--leading-display-md:1.15;
+--text-display-sm:26px;--leading-display-sm:1.2;
+
+/* Body scale (Inter) */
+--text-body-lg:17px;--leading-body-lg:1.6;
+--text-body-md:16px;--leading-body-md:1.65;
+--text-body-sm:14px;--leading-body-sm:1.6;
+--text-caption:12px;--leading-caption:1.5;
+
+--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;
+
+--tracking-eyebrow:.14em;
+--tracking-tag:.22em;
+--tracking-tight:.01em;
+}

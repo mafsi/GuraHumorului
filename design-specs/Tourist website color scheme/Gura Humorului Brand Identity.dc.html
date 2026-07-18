@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;background:#F7F2E7;font-family:'Inter',sans-serif;}
+    a{color:#1C2A4A;} a:hover{color:#9C7B2E;}
+    ::selection{background:#9C7B2E;color:#fff;}
+  </style>
+</helmet>
+
+<div style="background:#F7F2E7;color:#1A1B22;">
+
+  <section style="background:#1C2A4A;padding:120px 56px 90px;display:flex;flex-direction:column;align-items:center;text-align:center;">
+    <div style="font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#C7A94C;margin-bottom:22px;">Brand Identity Guide</div>
+    <h1 style="font-family:'Fraunces',serif;font-weight:600;font-size:56px;line-height:1.05;color:#F7F2E7;margin:0 0 20px;white-space:nowrap;">Gura Humorului</h1>
+    <div style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:rgba(247,242,231,.6);">Bucovina · Romania — Heritage Tourism</div>
+  </section>
+
+  <div style="max-width:1180px;margin:0 auto;padding:96px 32px;">
+
+    <section style="margin-bottom:96px;">
+      <div style="{{ eyebrowStyle }}">01 — Brand Essence</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;">
+        <p style="font-family:'Fraunces',serif;font-style:italic;font-weight:500;font-size:28px;line-height:1.4;color:#1A1B22;margin:0;">An old-money quiet confidence — the restraint of a place that doesn't need to shout about what it has kept for six hundred years.</p>
+        <div style="display:flex;flex-direction:column;gap:22px;">
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#9C7B2E;margin-bottom:6px;">Tone</div>
+            <div style="font-size:15px;line-height:1.6;color:#5B5A52;">Warm, unhurried, precise. Never exclamatory.</div>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#9C7B2E;margin-bottom:6px;">Audience</div>
+            <div style="font-size:15px;line-height:1.6;color:#5B5A52;">Cultural travellers who value heritage, craft, and quiet landscapes over spectacle.</div>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:#9C7B2E;margin-bottom:6px;">Not this</div>
+            <div style="font-size:15px;line-height:1.6;color:#5B5A52;">No emoji, no bright primary colours, no crowded layouts.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom:96px;">
+      <div style="{{ eyebrowStyle }}">02 — Logo</div>
+      <p style="font-size:15px;line-height:1.6;color:#5B5A52;max-width:600px;margin:0 0 32px;">A wordmark-led identity — classic serif name with a tracked tagline, no separate mark. Consistency in the name's setting carries the brand.</p>
+
+      <div style="border-radius:16px;overflow:hidden;margin-bottom:32px;">
+        <div style="background:#F7F2E7;border:1px solid #E6DCC6;padding:80px 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
+          <div style="text-align:center;">
+            <div style="font-family:'Fraunces',serif;font-weight:600;font-size:32px;letter-spacing:.02em;color:#1A1B22;white-space:nowrap;">Gura Humorului</div>
+            <div style="font-family:'Inter',sans-serif;font-weight:500;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#9C7B2E;margin-top:8px;white-space:nowrap;">Bucovina · Romania</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;border-radius:16px;overflow:hidden;margin-bottom:32px;">
+        <div style="background:#1C2A4A;padding:56px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;">
+          <div style="font-family:'Fraunces',serif;font-weight:600;font-size:22px;color:#F7F2E7;">Gura Humorului</div>
+          <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#C7A94C;">On navy</div>
+        </div>
+        <div style="background:#FFFFFF;border:1px solid #E6DCC6;padding:56px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;">
+          <div style="font-family:'Fraunces',serif;font-weight:600;font-size:22px;color:#1A1B22;">Gura Humorului</div>
+          <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#9C7B2E;">On white</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:24px;">
+        <div>
+          <div style="font-size:12px;font-weight:600;color:#1A1B22;margin-bottom:10px;">Clear space &amp; minimum size</div>
+          <p style="font-size:13px;line-height:1.6;color:#5B5A52;margin:0;">Keep clear space equal to the cap-height of "G" on every side. Never set the wordmark below 18px cap-height — at that scale, drop the tagline.</p>
+        </div>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:#1A1B22;margin-bottom:10px;">Don't</div>
+          <p style="font-size:13px;line-height:1.6;color:#5B5A52;margin:0;">Don't italicise, condense, recolour outside the palette, add a drop shadow, or place on a busy photograph without a scrim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom:96px;">
+      <div style="{{ eyebrowStyle }}">03 — Colour</div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2px;border-radius:16px;overflow:hidden;margin-bottom:2px;">
+        <sc-for list="{{ primarySwatches }}" as="c" hint-placeholder-count="4">
+          <div style="background:{{ c.hex }};padding:22px 18px;min-height:150px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <span style="font-family:monospace;font-size:12px;color:{{ c.labelColor }};opacity:.9;">{{ c.hex }}</span>
+              <span style="font-family:monospace;font-size:11px;color:{{ c.labelColor }};opacity:.8;">{{ c.pantone }}</span>
+              <span style="font-family:monospace;font-size:11px;color:{{ c.labelColor }};opacity:.8;">{{ c.cmyk }}</span>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2px;border-radius:16px;overflow:hidden;margin-bottom:16px;">
+        <sc-for list="{{ neutralSwatches }}" as="c" hint-placeholder-count="4">
+          <div style="background:{{ c.hex }};padding:20px 18px;min-height:120px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <span style="font-family:monospace;font-size:12px;color:{{ c.labelColor }};opacity:.9;">{{ c.hex }}</span>
+              <span style="font-family:monospace;font-size:11px;color:{{ c.labelColor }};opacity:.8;">{{ c.pantone }}</span>
+              <span style="font-family:monospace;font-size:11px;color:{{ c.labelColor }};opacity:.8;">{{ c.cmyk }}</span>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <p style="font-size:12px;line-height:1.6;color:#8A8272;margin:0 0 20px;max-width:620px;">Pantone matches are closest-approximation solid coated references; CMYK values are calculated conversions — confirm both against a physical Pantone guide and a printer's proof before production.</p>
+      <p style="font-size:13px;line-height:1.6;color:#5B5A52;margin:0;max-width:620px;">Navy carries authority (header, footer, CTAs); cream and ivory carry the page; gold marks a single accent per view — a label, a rule, a link. Never combine gold text on cream at small sizes.</p>
+    </section>
+
+    <section style="margin-bottom:96px;">
+      <div style="{{ eyebrowStyle }}">04 — Typography</div>
+      <div style="display:flex;flex-direction:column;gap:28px;">
+        <div style="display:flex;align-items:baseline;gap:24px;flex-wrap:wrap;">
+          <span style="font-family:'Fraunces',serif;font-weight:600;font-size:52px;color:#1A1B22;">Fraunces</span>
+          <span style="font-size:13px;color:#9C7B2E;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Display &amp; headlines</span>
+        </div>
+        <div style="display:flex;align-items:baseline;gap:24px;flex-wrap:wrap;">
+          <span style="font-family:'Inter',sans-serif;font-weight:600;font-size:40px;color:#1A1B22;">Inter</span>
+          <span style="font-size:13px;color:#9C7B2E;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Body, UI, labels</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div style="{{ eyebrowStyle }}">05 — In Use</div>
+      <div style="background:#1C2A4A;border-radius:16px;padding:64px 56px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;">
+        <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(247,242,231,.12);color:#C7A94C;padding:6px 16px;border-radius:100px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;">Southern Bucovina</div>
+        <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:34px;color:#F7F2E7;margin:0;max-width:480px;line-height:1.15;">Where painted monasteries meet ancient forest</h3>
+        <p style="font-size:15px;color:rgba(247,242,231,.75);max-width:440px;margin:0 0 8px;">A UNESCO landscape of frescoed walls and centuries of Bucovinian tradition.</p>
+        <button style="background:#C7A94C;color:#1C2A4A;border:none;padding:14px 28px;border-radius:10px;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;">Plan your visit</button>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      eyebrowStyle: "font-family:'Inter',sans-serif;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#9C7B2E;margin-bottom:24px;",
+      primarySwatches: [
+        { name: 'Navy 600 · Primary', hex: '#1C2A4A', labelColor: '#FFFFFF', pantone: 'PMS 2767 C', cmyk: 'C62 M43 Y0 K71' },
+        { name: 'Navy 400', hex: '#4A5C87', labelColor: '#FFFFFF', pantone: 'PMS 2145 C', cmyk: 'C45 M32 Y0 K47' },
+        { name: 'Gold 500 · Accent', hex: '#9C7B2E', labelColor: '#FFFFFF', pantone: 'PMS 4515 C', cmyk: 'C0 M21 Y71 K39' },
+        { name: 'Gold 300', hex: '#D9BD73', labelColor: '#4A3A10', pantone: 'PMS 4515 C (60%)', cmyk: 'C0 M13 Y47 K15' },
+      ],
+      neutralSwatches: [
+        { name: 'White', hex: '#FFFFFF', labelColor: '#1A1A1A', pantone: 'PMS White', cmyk: 'C0 M0 Y0 K0' },
+        { name: 'Cream 50', hex: '#F7F2E7', labelColor: '#1A1A1A', pantone: 'PMS 9280 C', cmyk: 'C0 M2 Y6 K3' },
+        { name: 'Ivory 150', hex: '#E6DCC6', labelColor: '#1A1A1A', pantone: 'PMS 7527 C', cmyk: 'C0 M4 Y14 K10' },
+        { name: 'Ink 950', hex: '#1A1B22', labelColor: '#FFFFFF', pantone: 'PMS Black 6 C', cmyk: 'C24 M21 Y0 K87' },
+      ],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

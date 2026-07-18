@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;background:#F7F2E7;}
+    a{color:#1C2A4A;} a:hover{color:#0F1830;}
+    ::selection{background:#7A1F2B;color:#fff;}
+  </style>
+</helmet>
+
+<div style="font-family:'Inter',sans-serif;background:{{ theme.bg }};min-height:100vh;transition:background .4s ease;">
+
+  <div style="max-width:1180px;margin:0 auto;padding:64px 32px 96px;">
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:48px;flex-wrap:wrap;">
+      <div>
+        <div style="font-family:'Inter',sans-serif;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:{{ theme.accent }};margin-bottom:14px;">Brand Color System</div>
+        <h1 style="font-family:'Fraunces',serif;font-size:52px;font-weight:600;line-height:1.05;margin:0 0 14px;color:{{ theme.ink }};">Gura Humorului</h1>
+        <p style="font-family:'Inter',sans-serif;font-size:17px;line-height:1.6;color:{{ theme.sub }};max-width:560px;margin:0;">An old-money palette for heritage tourism — deep navy against cream, with a restrained gold accent.</p>
+      </div>
+    </div>
+
+    <section style="margin-bottom:56px;">
+      <h2 style="{{ sectionHeadStyle }}">Primary</h2>
+      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:2px;border-radius:16px;overflow:hidden;">
+        <sc-for list="{{ primaryScale }}" as="c" hint-placeholder-count="6">
+          <div style="background:{{ c.hex }};padding:20px 16px;min-height:110px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <span style="font-family:'Inter',monospace;font-size:12px;color:{{ c.labelColor }};opacity:.85;">{{ c.hex }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:56px;">
+      <h2 style="{{ sectionHeadStyle }}">Secondary — Cream &amp; Gold</h2>
+      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:2px;border-radius:16px;overflow:hidden;">
+        <sc-for list="{{ secondaryScale }}" as="c" hint-placeholder-count="6">
+          <div style="background:{{ c.hex }};padding:20px 16px;min-height:110px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <span style="font-family:'Inter',monospace;font-size:12px;color:{{ c.labelColor }};opacity:.85;">{{ c.hex }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:56px;">
+      <h2 style="{{ sectionHeadStyle }}">Accent</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2px;border-radius:16px;overflow:hidden;">
+        <sc-for list="{{ accentScale }}" as="c" hint-placeholder-count="4">
+          <div style="background:{{ c.hex }};padding:20px 16px;min-height:110px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <span style="font-family:'Inter',monospace;font-size:12px;color:{{ c.labelColor }};opacity:.85;">{{ c.hex }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:56px;">
+      <h2 style="{{ sectionHeadStyle }}">Neutrals</h2>
+      <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:2px;border-radius:16px;overflow:hidden;">
+        <sc-for list="{{ neutralScale }}" as="c" hint-placeholder-count="7">
+          <div style="background:{{ c.hex }};padding:20px 16px;min-height:96px;display:flex;flex-direction:column;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:600;color:{{ c.labelColor }};">{{ c.name }}</span>
+            <span style="font-family:'Inter',monospace;font-size:12px;color:{{ c.labelColor }};opacity:.85;">{{ c.hex }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:64px;">
+      <h2 style="{{ sectionHeadStyle }}">Semantic</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+        <sc-for list="{{ semanticColors }}" as="c" hint-placeholder-count="4">
+          <div style="background:{{ theme.cardBg }};border:1px solid {{ theme.cardBorder }};border-radius:12px;padding:18px;">
+            <div style="width:36px;height:36px;border-radius:9px;background:{{ c.hex }};margin-bottom:14px;"></div>
+            <div style="font-size:13px;font-weight:600;color:{{ theme.ink }};margin-bottom:3px;">{{ c.name }}</div>
+            <div style="font-family:'Inter',monospace;font-size:12px;color:{{ theme.sub }};">{{ c.hex }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="margin-bottom:64px;">
+      <h2 style="{{ sectionHeadStyle }}">Typography</h2>
+      <div style="background:{{ theme.cardBg }};border:1px solid {{ theme.cardBorder }};border-radius:16px;padding:48px 44px;display:flex;flex-direction:column;gap:36px;">
+        <div>
+          <div style="font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:{{ theme.accent }};margin-bottom:10px;">Display — Fraunces, 600</div>
+          <div style="font-family:'Fraunces',serif;font-weight:600;font-size:56px;line-height:1.05;color:{{ theme.ink }};">Aa Bb Cc — Gura Humorului</div>
+        </div>
+        <div style="height:1px;background:{{ theme.cardBorder }};"></div>
+        <div>
+          <div style="font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:{{ theme.accent }};margin-bottom:10px;">Body / UI — Inter</div>
+          <div style="display:flex;flex-direction:column;gap:14px;">
+            <div style="font-family:'Inter',sans-serif;font-weight:600;font-size:20px;color:{{ theme.ink }};">Semibold 20 — Section headings, buttons</div>
+            <div style="font-family:'Inter',sans-serif;font-weight:500;font-size:17px;color:{{ theme.ink }};">Medium 17 — Card titles, nav labels</div>
+            <div style="font-family:'Inter',sans-serif;font-weight:400;font-size:16px;line-height:1.6;color:{{ theme.sub }};max-width:560px;">Regular 16 — Body copy. Set at a comfortable line-height for longer passages about the monasteries, trails, and traditions of Bucovina.</div>
+            <div style="font-family:'Inter',sans-serif;font-weight:600;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:{{ theme.sub }};">Semibold 12, tracked — Eyebrows, labels</div>
+          </div>
+        </div>
+        <div style="height:1px;background:{{ theme.cardBorder }};"></div>
+        <div style="display:flex;gap:32px;flex-wrap:wrap;">
+          <div>
+            <div style="font-size:12px;font-weight:600;color:{{ theme.sub }};margin-bottom:6px;">Fraunces</div>
+            <div style="font-size:13px;color:{{ theme.sub }};">Headlines, pull quotes — serif warmth for heritage storytelling.</div>
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:600;color:{{ theme.sub }};margin-bottom:6px;">Inter</div>
+            <div style="font-size:13px;color:{{ theme.sub }};">Everything else — clean, legible, modern counterpoint.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-bottom:64px;">
+      <h2 style="{{ sectionHeadStyle }}">Logo Concept</h2>
+      <p style="font-size:14px;line-height:1.6;color:{{ theme.sub }};max-width:600px;margin:0 0 24px;">A wordmark-led identity — classic serif name with a tracked tagline, no separate mark.</p>
+
+      <div style="border-radius:16px;overflow:hidden;">
+        <div style="background:{{ theme.bg }};padding:64px 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
+          <div style="text-align:center;">
+            <div style="font-family:'Fraunces',serif;font-weight:600;font-size:24px;letter-spacing:.02em;color:{{ theme.ink }};white-space:nowrap;">Gura Humorului</div>
+            <div style="font-family:'Inter',sans-serif;font-weight:500;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:{{ theme.accent }};margin-top:6px;white-space:nowrap;">Bucovina · Romania</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="{{ sectionHeadStyle }}">Applied — Sample Section</h2>
+      <div style="background:{{ theme.previewBg }};border-radius:20px;overflow:hidden;border:1px solid {{ theme.cardBorder }};">
+        <div style="padding:64px 56px;display:flex;flex-direction:column;gap:20px;align-items:flex-start;">
+          <div style="display:inline-flex;align-items:center;gap:8px;background:{{ theme.chipBg }};color:{{ theme.chipText }};padding:7px 16px;border-radius:100px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Bucovina, Romania</div>
+          <h3 style="font-family:'Fraunces',serif;font-size:40px;font-weight:600;color:{{ theme.previewInk }};margin:0;max-width:520px;line-height:1.1;">Discover the painted monasteries of Gura Humorului</h3>
+          <p style="font-size:16px;line-height:1.6;color:{{ theme.previewSub }};max-width:480px;margin:0 0 8px;">Frescoed walls, beech forests, and centuries of tradition — plan your journey through Southern Bucovina.</p>
+          <div style="display:flex;gap:14px;">
+            <button style="background:{{ theme.btnPrimaryBg }};color:{{ theme.btnPrimaryText }};border:none;padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;">Plan your visit</button>
+            <button style="background:transparent;color:{{ theme.btnSecondaryText }};border:1.5px solid {{ theme.btnSecondaryBorder }};padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;">Explore the map</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    const palettes = {
+      navy: {
+        label: 'Navy & Cream',
+        swatch: '#1C2A4A',
+        theme: {
+          bg: '#F7F2E7', ink: '#1A1B22', sub: '#5B5A52', accent: '#9C7B2E',
+          cardBg: '#FFFFFF', cardBorder: '#E6DCC6',
+          previewBg: '#FFFFFF', previewInk: '#1A1B22', previewSub: '#5B5A52',
+          chipBg: '#EFE6D0', chipText: '#7A5E20',
+          btnPrimaryBg: '#1C2A4A', btnPrimaryText: '#F7F2E7',
+          btnSecondaryText: '#1A1B22', btnSecondaryBorder: '#C9BE9E',
+        },
+        primaryScale: [
+          { name: '50', hex: '#E7EAF1', labelColor: '#1C2A4A' },
+          { name: '200', hex: '#B4BED4', labelColor: '#1C2A4A' },
+          { name: '400', hex: '#4A5C87', labelColor: '#FFFFFF' },
+          { name: '600 · Base', hex: '#1C2A4A', labelColor: '#FFFFFF' },
+          { name: '800', hex: '#131D33', labelColor: '#FFFFFF' },
+          { name: '950', hex: '#090D1A', labelColor: '#FFFFFF' },
+        ],
+        accentScale: [
+          { name: '100', hex: '#F1E5C4', labelColor: '#5C4A18' },
+          { name: '300', hex: '#D9BD73', labelColor: '#4A3A10' },
+          { name: '500 · Base', hex: '#9C7B2E', labelColor: '#FFFFFF' },
+          { name: '700', hex: '#6E5620', labelColor: '#FFFFFF' },
+        ],
+      },
+    };
+
+    const secondaryScale = [
+      { name: '0 · White', hex: '#FFFFFF', labelColor: '#2A2A2A' },
+      { name: '50 · Cream', hex: '#F7F2E7', labelColor: '#2A2A2A' },
+      { name: '150 · Ivory', hex: '#EEE4D0', labelColor: '#2A2A2A' },
+      { name: '300 · Parchment', hex: '#D9C9A3', labelColor: '#2A2A2A' },
+      { name: '500 · Gold', hex: '#9C7B2E', labelColor: '#FFFFFF' },
+      { name: '700 · Antique Gold', hex: '#6E5620', labelColor: '#FFFFFF' },
+    ];
+
+    const neutralScale = [
+      { name: '0', hex: '#FFFFFF', labelColor: '#1A1A1A' },
+      { name: '50', hex: '#F7F2E7', labelColor: '#1A1A1A' },
+      { name: '150', hex: '#E6DCC6', labelColor: '#1A1A1A' },
+      { name: '400', hex: '#AFA48C', labelColor: '#1A1A1A' },
+      { name: '600', hex: '#77705F', labelColor: '#FFFFFF' },
+      { name: '800', hex: '#413C31', labelColor: '#FFFFFF' },
+      { name: '950', hex: '#1D1A15', labelColor: '#FFFFFF' },
+    ];
+
+    const semanticColors = [
+      { name: 'Success', hex: '#3F5E44' },
+      { name: 'Warning', hex: '#9C7B2E' },
+      { name: 'Error', hex: '#7A2733' },
+      { name: 'Info', hex: '#3E6480' },
+    ];
+
+    const current = palettes.navy;
+
+    return {
+      theme: current.theme,
+      primaryScale: current.primaryScale,
+      secondaryScale, accentScale: current.accentScale, neutralScale, semanticColors,
+      sectionHeadStyle: `font-family:'Inter',sans-serif;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:${current.theme.sub};margin:0 0 18px;`,
+    };
+  }
+}
+
+</script>
+</body>
+</html>
