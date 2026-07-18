@@ -1,16 +1,9 @@
 (function () {
-  var QUOTES = [
-    { text: "The blue of Voroneț is unlike any colour I've seen elsewhere — it feels less painted than grown into the wall itself.", attribution: 'A visitor, autumn 2025' },
-    { text: 'We came for the frescoes and stayed for the quiet — the kind of quiet that has a fire crackling somewhere just out of sight.', attribution: 'A visitor, winter 2025' },
-    { text: 'Nobody told us the hills would still be dancing after the monasteries close for the evening.', attribution: 'A visitor, summer 2025' }
-  ];
-
-  var LIVING_HEADINGS = [
-    'Bucovina keeps its rhythm in colour',
-    'Bucovina keeps its rhythm in song',
-    'Bucovina keeps its rhythm on the trail',
-    'Bucovina keeps its rhythm at the table'
-  ];
+  var dataScript = document.getElementById('quotes-data');
+  if (!dataScript) return;
+  var data = JSON.parse(dataScript.textContent);
+  var QUOTES = data.quotes;
+  var LIVING_HEADINGS = data.headings;
 
   var quoteIndex = 0;
   var headingIndex = 0;
@@ -54,7 +47,7 @@
     if (nextBtn) nextBtn.addEventListener('click', function () { goTo(quoteIndex + 1); });
   }
 
-  if (livingHeading) {
+  if (livingHeading && LIVING_HEADINGS && LIVING_HEADINGS.length) {
     setInterval(function () {
       headingIndex = (headingIndex + 1) % LIVING_HEADINGS.length;
       livingHeading.textContent = LIVING_HEADINGS[headingIndex];

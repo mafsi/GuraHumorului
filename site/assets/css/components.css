@@ -306,3 +306,61 @@ a:hover { color: var(--link-hover); }
 
 /* Range slider (Plan Your Visit) */
 .gh-range { width: 260px; accent-color: var(--gold-500); }
+
+/* Language switcher (header + footer, both on navy backgrounds) */
+.gh-lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.gh-lang-switch a { color: var(--text-on-inverse); opacity: .7; text-decoration: none; }
+.gh-lang-switch a:hover { opacity: 1; color: var(--gold-300); }
+.gh-lang-current { color: var(--gold-300); }
+.gh-lang-divider { color: rgba(247, 242, 231, .4); }
+
+/* Condensed activity option block (Plan Your Visit) */
+.gh-option-block { background: var(--surface-card); border-radius: var(--radius-lg); padding: 32px; }
+.gh-option-block__title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: 20px;
+  color: var(--text-primary);
+  margin: 0 0 10px;
+}
+.gh-option-block__copy {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 16px;
+}
+
+/* WhatsApp contact card (accommodation owners / trip planning) */
+.gh-contact-card {
+  background: var(--navy-600);
+  border-radius: var(--radius-xl);
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.gh-contact-card__heading {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: 26px;
+  color: var(--text-on-inverse);
+  margin: 0 0 12px;
+}
+.gh-contact-card__copy {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-on-inverse-muted);
+  max-width: 480px;
+  margin: 0;
+}
